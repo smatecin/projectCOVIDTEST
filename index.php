@@ -86,64 +86,68 @@
     <!--================ Feature section start =================-->      
     <section class="section-margin">
       <div class="container">
-        <div class="section-intro pb-85px text-center">
+        <div class="section-intro pb-78px text-center">
           <h1 class="section-intro__title">KENALI GEJALANYA</h1>
           <p class="section-intro__subtitle"><h3>Jangan Panik, Kenali gejalanya dan deteksi virus corona sejak dini. Hanya perlu mengatur jarak, hindari bersalaman dan bila sakit memakai masker, dan jaga kebersihan</h3></p>
         </div>
 
         <div class="container">
           <div class="row">
+
             <div class="col-lg-4">
-              <div class="card card-feature text-center text-lg-left mb-4 mb-lg-0">
+              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0">
                 <span class="card-feature__icon">
-                 <i> <img class="img-fluid" src="img/d1.jpg" alt=""></i>
+                 <i> <img class="img-fluid" src="img\gejala_img\demam.png" alt=""></i>
                 </span>
                 <h3 class="card-feature__title">Demam</h3>
                 <p class="card-feature__subtitle">Demam menunjukkan gejala awal corona, demam biasanya mencapai suhu 38 derajat celcius keatas</p>
               </div>
             </div>
+
             <div class="col-lg-4">
-              <div class="card card-feature text-center text-lg-left mb-4 mb-lg-0">
+              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0">
                 <span class="card-feature__icon">
-                  <i><img class="img-fluid" src="img/.jpg" alt=""></i>
+                  <i><img class="img-fluid" src="img\gejala_img\batuk.png" alt=""></i>
                 </span>
-                <!-- <h3 class="card-feature__title">Batuk Kering</h3> -->
+                <h3 class="card-feature__title">Batuk Kering</h3>
                 <p class="card-feature__subtitle">Batuk Kering tidak beriak dan berulang ulang merupakan tanda infeksi aktif di paru-paru, yang mungkin bisa disebabkan karena COVID-19</p>
               </div>
             </div>
+
+
             <div class="col-lg-4">
-              <div class="card card-feature text-center text-lg-left mb-4 mb-lg-0">
+              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0">
                 <span class="card-feature__icon">
-                  <i><img class="img-fluid" src="img/.jpg" alt=""></i>
+                  <i><img class="img-fluid" src="img\gejala_img\sakittenggorokan.png" alt=""></i>
                 </span>
-                <!-- <h3 class="card-feature__title">Sakit Tenggorokan</h3> -->
+                <h3 class="card-feature__title">Sakit Tenggorokan</h3>
                 <p class="card-feature__subtitle">Infeksi COVID-19 akan melalui jalur pernafasan sehingga dapat mengakibatkan radang pada tenggorokan dan rasa nyeri</p>
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="card card-feature text-center text-lg-left mb-4 mb-lg-0">
+              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0">
                 <span class="card-feature__icon">
-                  <i><img class="img-fluid" src="img/.jpg" alt=""></i>
+                  <i><img class="img-fluid" src="img\gejala_img\sakitkepala.png" alt=""></i>
                 </span>
-                <!-- <h3 class="card-feature__title">Sakit Kepala</h3> -->
+                <h3 class="card-feature__title">Sakit Kepala</h3>
                 <p class="card-feature__subtitle">Dengan adanya demam yang tinggi, COVID-19 seringkali diikuti dengan gejala sakit kepala</p>
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="card card-feature text-center text-lg-left mb-4 mb-lg-0">
+              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0">
                 <span class="card-feature__icon">
-                  <i><img class="img-fluid" src="img/.jpg" alt=""></i>
+                  <i><img class="img-fluid" src="img\gejala_img\lemas.png" alt=""></i>
                 </span>
-                <!-- <h3 class="card-feature__title">Lemas</h3> -->
+                <h3 class="card-feature__title">Lemas</h3>
                 <p class="card-feature__subtitle">Infeksi COVID-19 yang telah menyebar ke seluruh tubuh akan menghabiskan energi yang banyak sehingga seringkali dapat mengakibatkan lemas</p>
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="card card-feature text-center text-lg-left mb-4 mb-lg-0">
+              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0">
                 <span class="card-feature__icon">
-                  <i><img class="img-fluid" src="img/.jpg" alt=""></i>
+                  <i><img class="img-fluid" src="img\gejala_img\sesak.png" alt=""></i>
                 </span>
-                <!-- <h3 class="card-feature__title">Sesak Nafas</h3> -->
+                <h3 class="card-feature__title">Sesak Nafas</h3>
                 <p class="card-feature__subtitle">Apabila COVID-19 berkembang dengan cepat dan besar di paru-paru, fungsi paru akan menurun sehingga terjadi sesak nafas</p>
               </div>
             </div>
@@ -156,21 +160,24 @@
     <!--================ Offer section start =================-->      
     <section class="section-margin">
       <div class="container">
-        <div class="section-intro pb-85px text-center">
+        <div class="section-intro pb-60px text-center">
           <h1 class="section-intro__title">PENCEGAHAN COVID-19</h1>
           <p class="section-intro__subtitle"><h3>Lindungi diri dan orang lain di sekitar Anda dengan mengetahui fakta-fakta terkait virus ini dan mengambil langkah pencegahan yang sesuai. Ikuti saran yang diberikan oleh badan kesehatan publik lokal Anda.</h3></p>
         </div>
 
         <div class="row">
+
           <div class="col-lg-6">
 
             <div class="row offer-single-wrapper">
+
+
               <div class="col-lg-6 offer-single">
                 <div class="card offer-single__content text-center">
                   <span class="offer-single__icon">
-                    <i class="ti-pencil-alt"></i>
+                     <i><img class="img-fluid" src="img\pencegahan_img\desin.png" alt=""></i>
                   </span>
-                  <h4>Easy To Manage</h4>
+                  <h4>Cuci Tangan</h4>
                   <p>Bersihkan tangan Anda secara rutin. Gunakan sabun dan air, atau cairan pembersih tangan berbahan alkohol.</p>
                 </div>
               </div>
@@ -178,9 +185,9 @@
               <div class="col-lg-6 offer-single">
                 <div class="card offer-single__content text-center">
                   <span class="offer-single__icon">
-                    <i class="ti-ruler-pencil"></i>
+                    <i><img class="img-fluid" src="img\pencegahan_img\desin.png" alt=""></i>
                   </span>
-                  <h4>Analytics Tool</h4>
+                  <h4>Gunakan Sabun Antiseptic</h4>
                   <p>Selalu jaga jarak yang aman dengan orang yang batuk atau bersin.</p>
                 </div>
               </div>
@@ -190,37 +197,64 @@
               <div class="col-lg-6 offer-single">
                 <div class="card offer-single__content text-center">
                   <span class="offer-single__icon">
-                    <i class="ti-cut"></i>
+                    <i><img class="img-fluid" src="img\pencegahan_img\desin.png" alt=""></i>
                   </span>
-                  <h4>Professionals Tools</h4>
+                  <h4>Selalu Gunakan Masker</h4>
                   <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
                 </div>
               </div>
+
               
               <div class="col-lg-6 offer-single">
                 <div class="card offer-single__content text-center">
                   <span class="offer-single__icon">
-                    <i class="ti-light-bulb"></i>
+                    <i><img class="img-fluid" src="img\pencegahan_img\desin.png" alt=""></i>
                   </span>
-                  <h4>Ready Content</h4>
+                  <h4>Hindari Kerumunan</h4>
+                  <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
+                </div>
+
+              </div>
+
+              <div class="col-lg-6 offer-single">
+                <div class="card offer-single__content text-center">
+                  <span class="offer-single__icon">
+                    <i><img class="img-fluid" src="img\pencegahan_img\desin.png" alt=""></i>
+                  </span>
+                  <h4>Hindari Kontak Langsung</h4>
+                  <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
+                </div>
+              </div>
+
+              <div class="col-lg-6 offer-single">
+                <div class="card offer-single__content text-center">
+                  <span class="offer-single__icon">
+                    <i><img class="img-fluid" src="img\pencegahan_img\desin.png" alt=""></i>
+                  </span>
+                  <h4>Semprotkan Desinfektan</h4>
                   <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
                 </div>
               </div>
             </div>
 
           </div>
+
+
           <div class="col-lg-6">
             <div class="offer-single__img">
-              <img class="img-fluid" src="img/home/offer.png" alt="">
+              <img class="img-fluid" src="img\pencegahan_img\pencegahan.png" alt="">
+            </div>
             </div>
           </div>
         </div>
       </div>
+
+
     </section>
     <!--================ Offer section end =================-->      
 
 <!--================ about section start =================-->      
-    <section class="section-padding--small bg-magnolia">
+    <section class="section-margin">
       <div class="container">
         <div class="row no-gutters align-items-center">
           <div class="col-md-5 mb-5 mb-md-0">
@@ -242,7 +276,7 @@
     </section>
     <!--================ about section end =================-->      
     <!--================ Solution section start =================-->      
-    <section class="section-padding--small bg-magnolia">
+    <section class="">
       <div class="container">
         <div class="row align-items-center pt-xl-3 pb-xl-5">
           <div class="col-lg-6">

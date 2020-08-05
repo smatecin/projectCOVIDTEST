@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Checkup Covid-19</title>
+  <title>HOME - Checkup Covid-19</title>
 	<link rel="icon" href="img/Fevicon.png" type="image/png">
 
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="vendors/linericon/style.css">
   <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
   <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-
+  <link rel="stylesheet" href="vendors/aos/css/aos.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -23,7 +23,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container box_1620">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand logo_h" href="index.php"><img src="img/logo.png" alt=""></a>
+          <a class="navbar-brand logo_h" href="index.php"><img src="img/logo.png" alt="" data></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -68,7 +68,7 @@
         <div class="row">
           <div class="col-lg-7">
             <div class="hero-banner__img">
-              <img class="img-fluid" src="img/banner/people.png" alt="">
+              <img class="img-fluid" src="img/banner/people1.png">
             </div>
           </div>
           <div class="col-lg-5 pt-7">
@@ -104,13 +104,14 @@
               </div>
             </div>
 
+
             <div class="col-lg-4">
               <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0">
                 <span class="card-feature__icon">
-                  <i><img class="img-fluid" src="img\gejala_img\batuk.png" alt=""></i>
+                 <i> <img class="img-fluid" src="img\gejala_img\batuk.png" alt=""></i>
                 </span>
                 <h3 class="card-feature__title">Batuk Kering</h3>
-                <p class="card-feature__subtitle">Batuk Kering tidak beriak dan berulang ulang merupakan tanda infeksi aktif di paru-paru, yang mungkin bisa disebabkan karena COVID-19</p>
+                <p class="card-feature__subtitle">Batuk Kering dan berulang ulang merupakan tanda infeksi aktif di paru-paru, yang mungkin disebabkan Corona</p>
               </div>
             </div>
 
@@ -124,6 +125,9 @@
                 <p class="card-feature__subtitle">Infeksi COVID-19 akan melalui jalur pernafasan sehingga dapat mengakibatkan radang pada tenggorokan dan rasa nyeri</p>
               </div>
             </div>
+
+
+
             <div class="col-lg-4">
               <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0">
                 <span class="card-feature__icon">
@@ -175,7 +179,7 @@
               <div class="col-lg-6 offer-single">
                 <div class="card offer-single__content text-center">
                   <span class="offer-single__icon">
-                     <i><img class="img-fluid" src="img\pencegahan_img\desin.png" alt=""></i>
+                     <i><img class="img-fluid" src="img\pencegahan_img\cuci_tangan.png" alt=""></i>
                   </span>
                   <h4>Cuci Tangan</h4>
                   <p>Bersihkan tangan Anda secara rutin. Gunakan sabun dan air, atau cairan pembersih tangan berbahan alkohol.</p>
@@ -185,7 +189,7 @@
               <div class="col-lg-6 offer-single">
                 <div class="card offer-single__content text-center">
                   <span class="offer-single__icon">
-                    <i><img class="img-fluid" src="img\pencegahan_img\desin.png" alt=""></i>
+                    <i><img class="img-fluid" src="img\pencegahan_img\sabun.png" alt=""></i>
                   </span>
                   <h4>Gunakan Sabun Antiseptic</h4>
                   <p>Selalu jaga jarak yang aman dengan orang yang batuk atau bersin.</p>
@@ -197,7 +201,7 @@
               <div class="col-lg-6 offer-single">
                 <div class="card offer-single__content text-center">
                   <span class="offer-single__icon">
-                    <i><img class="img-fluid" src="img\pencegahan_img\desin.png" alt=""></i>
+                    <i><img class="img-fluid" src="img\pencegahan_img\masker.png" alt=""></i>
                   </span>
                   <h4>Selalu Gunakan Masker</h4>
                   <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
@@ -208,7 +212,7 @@
               <div class="col-lg-6 offer-single">
                 <div class="card offer-single__content text-center">
                   <span class="offer-single__icon">
-                    <i><img class="img-fluid" src="img\pencegahan_img\desin.png" alt=""></i>
+                    <i><img class="img-fluid" src="img\pencegahan_img\kerumunan.png" alt=""></i>
                   </span>
                   <h4>Hindari Kerumunan</h4>
                   <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
@@ -219,7 +223,7 @@
               <div class="col-lg-6 offer-single">
                 <div class="card offer-single__content text-center">
                   <span class="offer-single__icon">
-                    <i><img class="img-fluid" src="img\pencegahan_img\desin.png" alt=""></i>
+                    <i><img class="img-fluid" src="img\pencegahan_img\jabattangan.png" alt=""></i>
                   </span>
                   <h4>Hindari Kontak Langsung</h4>
                   <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>

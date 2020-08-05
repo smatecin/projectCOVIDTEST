@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Parason Software - Feature</title>
+  <title>RS RUJUKAN - Checkup Covid-19</title>
   <link rel="icon" href="img/Fevicon.png" type="image/png">
 
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
@@ -30,12 +30,13 @@
             <span class="icon-bar"></span>
           </button>
           <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+         <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li> 
+              <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li> 
               <li class="nav-item"><a class="nav-link" href="kasus.php">Kasus</a></li> 
-              <li class="nav-item"><a class="nav-link" href="rumahsakit.php">Rumahsakit Rujukan</a>
-          </div> 
+              <li class="nav-item active"><a class="nav-link" href="rumahsakit.php">Rumahsakit Rujukan</a></li>
+              <li class="nav-item"><a class="nav-link" href="checkup.php">Checkup!</a></li>
+            </ul> 
         </div>
       </nav>
     </div>

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>HOME - Checkup Covid-19</title>
-	<link rel="icon" href="img/Fevicon.png" type="image/png">
+	 <link rel="icon" href="img/icon.png">
 
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
@@ -37,22 +37,7 @@
               <li class="nav-item"><a class="nav-link" href="rumahsakit.php">Rumahsakit Rujukan</a></li>
               <li class="nav-item"><a class="nav-link" href="checkup.php">Checkup!</a></li>
             </ul>
-              <!-- <li class="nav-item submenu dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">Pages</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
-                  <li class="nav-item"><a class="nav-link" href="blog-details.php">Blog Details</a></li>
-                </ul>
-							</li>
-              <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-            </ul> -->
-
-            <!-- <ul class="navbar-right">
-              <li class="nav-item">
-                <button class="button button-header bg">Sign up</button>
-              </li>
-            </ul> -->
+              
           </div> 
         </div>
       </nav>

@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" >
+
+    <title>PANTAU</title>
+  </head>
+  <body>
+  
+
+  
+<div class="jumbotron jumbotron-fluid bg-primary text-white">
+  <div class="container text-center">
+    <h1 class="display-4">Corona Virus</h1>
+    <p class="lead"><h2>Pantau penyebaran covid dunia</h2></p>
+  </div>
+</div>
+
+
+<style type="text/css">
+  .box{
+    padding: 30px 40px;
+    border-radius: 4px;
+  }
+</style>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+        <div class="bg-danger box text-white">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Positif</h5>
+              <h4 id="data-kasus"></h4>
+              <h5>Orang</h5>
+            </div>
+            <div class="col-md-4">
+              <img src="img/sad.svg" style="width: 100px">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="bg-info box text-white">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Meninggal</h5>
+              <h4 id="data-mati"></h4>
+              <h5>Orang</h5>
+            </div>
+            <div class="col-md-4">
+              <img src="img/cry.svg" style="width: 100px">
+            </div>
+          </div>
+        </div>
+    </div>
+
+<div class="col-md-4">
+        <div class="bg-success box text-white">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Sembuh</h5>
+              <h4 id="data-sembuh"></h4>
+              <h5>Orang</h5>
+            </div>
+            <div class="col-md-4">
+              <img src="img/happy.svg" style="width: 100px">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 mt-3">
+        <div class="bg-success box text-white">
+          <div class="row">
+            <div class="col-md-3">
+              <h2>INDONESIA</h2>
+              <h5 id="data-id">x</h5>
+            </div>
+            <div class="col-md-4">
+              <img src="img/indonesia.svg" style="width: 150px">
+            </div>
+            <div class="col-md-5">
+              <h2>Terkini</h2>
+              <h5 id="data-terkini">x</h5>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+<footer class="bg-primary text-center text-white mt-3 bt-2 pb-2">Smatecin YK</footer>
+
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+    
+
+
+
+  </body>
+</html>
+
+<script>
+  $(document).ready(function(){
+
+      semuaData();
+      dataNegara();
+
+      setInterval(function(){
+        semuaData();
+        dataNegara();
+      },3000);
+   
+      function semuaData(){
+        $.ajax({
+          url : 'https://coronavirus-19-api.herokuapp.com/all',
+          success : function(data){
+              try{
+                var json = data;
+                var kasus = data.cases;
+                var meninggal = data.deaths;
+                var sembuh = data.recovered;
+
+              $('#data-kasus').html(kasus);
+              $('#data-mati').html(meninggal);
+              $('#data-sembuh').html(sembuh);
+
+              }catch{
+                alert('error');
+              }
+          }
+        });
+      }
+      function dataNegara(){
+         $.ajax({
+          url : 'https://coronavirus-19-api.herokuapp.com/countries',
+          success : function(data){
+              try{
+                var json = data;
+                var html = [];
+                if (json.length > 0) {
+                  var i;
+                  for (i = 0; i < json.length; i++) {
+                    var dataNegara = json[i];
+                    var namaNegara = dataNegara.country;
+
+                    if(namaNegara == 'Indonesia'){
+                      var kasus = dataNegara.cases;
+                      var kasushariini = dataNegara.todayCases;
+                      var mati = dataNegara.deaths;
+                      var matihariini = dataNegara.todayDeaths;
+                      var sembuh = dataNegara.recovered;
+                      $('#data-id').html(
+                        'Positif : ' +kasus+ ' Orang <br> Meninggal : '+mati+' Orang <br> Sembuh : '+sembuh+' Orang');
+                      $('#data-terkini').html(
+                        'Positif : ' +kasushariini+ ' Orang <br> Meninggal : '+matihariini+' Orang');
+
+                    }
+                  
+                  }
+                }
+
+              }catch{
+                alert('error');
+              }
+          }
+        });
+        }
+
+    
+
+
+
+  });
+</script>

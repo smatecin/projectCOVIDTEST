@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>KASUS - Checkup Covid-19</title>
   <link rel="icon" href="img/icon.png">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" >
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
@@ -58,135 +58,97 @@
 
   
   <!--================ Offer section start =================-->
+  <style type="text/css">
+  .box{
+    padding: 30px 40px;
+    border-radius: 4px;
+  }
+  h5 {
+    color: white;
+  }
+   h4 {
+    color: white;
+  }
+  h2 {
+    color: white;
+  }
+</style>
   <section class="section-margin">
-    <div class="container">
-      <div class="section-intro pb-85px text-center">
-        <h2 class="section-intro__title">Kasus Covid-19</h2>
-        <p class="section-intro__subtitle">Di Indonesia, kasus terkonfirmasi positif COVID-19 pertama kali terdektesi pada Senin, 2 Maret 2020. Sejak itu, jumlah yang terkonfirmasi COVID-19 semakin bertambah dari hari ke hari. </p>
-      </div>
+   <div class="container">
+
+        <h1 style="text-align: center;">Kasus Covid-19 Terkini</h1>
+        <p style="text-align: center;">Berikut adalah jumlah kasus Positif, Meninggal, dan Sembuh seluruh dunia</p>
+        </nav>
+  <div class="row">
+    <div class="col-md-4">
+        <div class="bg-danger box text-white">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Positif</h5>
+              <h4 id="data-kasus"></h4>
+              <h5>Orang</h5>
+            </div>
+            <div class="col-md-4">
+              <img src="img/sad.svg" style="width: 100px">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="bg-info box text-white">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Meninggal</h5>
+              <h4 id="data-mati"></h4>
+              <h5>Orang</h5>
+            </div>
+            <div class="col-md-4">
+              <img src="img/cry.svg" style="width: 100px">
+            </div>
+          </div>
+        </div>
+    </div>
+
+<div class="col-md-4">
+        <div class="bg-success box text-white">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Sembuh</h5>
+              <h4 id="data-sembuh"></h4>
+              <h5>Orang</h5>
+            </div>
+            <div class="col-md-4">
+              <img src="img/happy.svg" style="width: 100px">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 mt-3">
+        <div class="bg box text-black" style="background-color: rgb(65 ,47 ,179);">
+          <div class="row">
+            <div class="col-md-3">
+              <h2>INDONESIA</h2>
+              <h5 id="data-id" >x</h5>
+            </div>
+            <div class="col-md-4">
+              <img src="img/indonesia.svg" style="width: 150px">
+            </div>
+            <div class="col-md-5">
+              <h2>Terkini</h2>
+              <h5 id="data-terkini">x</h5>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+  </div>
+</div>
+
     </div>
   </section>      
-<!--   <section class="section-margin">
-    <div class="container">
-      <div class="section-intro pb-85px text-center">
-        <h2 class="section-intro__title">Features We Offer</h2>
-        <p class="section-intro__subtitle">Vel aliquam quis, nulla pede mi commodo tristique nam hac. Luctus torquent velit felis commodo pellentesque nulla cras. Tincidunt hacvel alivquam quis nulla pede mi commodo tristique nam hac  luctus torquent</p>
-      </div>
- -->
-<!--       <div class="row">
-        <div class="col-lg-6">
-
-          <div class="row offer-single-wrapper">
-            <div class="col-lg-6 offer-single">
-              <div class="card offer-single__content text-center">
-                <span class="offer-single__icon">
-                  <i class="ti-pencil-alt"></i>
-                </span>
-                <h4>Easy To Manage</h4>
-                <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
-              </div>
-            </div>
-            
-            <div class="col-lg-6 offer-single">
-              <div class="card offer-single__content text-center">
-                <span class="offer-single__icon">
-                  <i class="ti-ruler-pencil"></i>
-                </span>
-                <h4>Analytics Tool</h4>
-                <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row offer-single-wrapper">
-            <div class="col-lg-6 offer-single">
-              <div class="card offer-single__content text-center">
-                <span class="offer-single__icon">
-                  <i class="ti-cut"></i>
-                </span>
-                <h4>Professionals Tools</h4>
-                <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
-              </div>
-            </div>
-            
-            <div class="col-lg-6 offer-single">
-              <div class="card offer-single__content text-center">
-                <span class="offer-single__icon">
-                  <i class="ti-light-bulb"></i>
-                </span>
-                <h4>Ready Content</h4>
-                <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-lg-6">
-          <div class="offer-single__img">
-            <img class="img-fluid" src="img/home/offer.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  ================ Offer section end =================-->
-  
-
-
-
-  <!--================ Testimonial section start =================      
-  <section class="section-padding bg-magnolia">
-    <div class="container">
-      <div class="section-intro pb-5 text-center">
-        <h2 class="section-intro__title">Client Says Me</h2>
-        <p class="section-intro__subtitle">Vel aliquam quis, nulla pede mi commodo tristique nam hac. Luctus torquent velit felis commodo pellentesque nulla cras. Tincidunt hacvel alivquam </p>
-      </div>
-
-      <div class="owl-carousel owl-theme testimonial">
-        <div class="testimonial__item text-center">
-          <div class="testimonial__img">
-            <img src="img/testimonial/testimonial1.png" alt="">
-          </div>
-          <div class="testimonial__content">
-            <h3>Stephen Mcmilan</h3>
-            <p>Executive, ACI Group</p>
-            <p class="testimonial__i">Also made from. Give may saying meat there from heaven it lights face had is gathered god earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had also made from. Give may saying meat there from heaven</p>
-          </div>
-        </div>
-        <div class="testimonial__item text-center">
-          <div class="testimonial__img">
-            <img src="img/testimonial/testimonial1.png" alt="">
-          </div>
-          <div class="testimonial__content">
-            <h3>Stephen Mcmilan</h3>
-            <p>Executive, ACI Group</p>
-            <p class="testimonial__i">Also made from. Give may saying meat there from heaven it lights face had is gathered god earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had also made from. Give may saying meat there from heaven</p>
-          </div>
-        </div>
-        <div class="testimonial__item text-center">
-          <div class="testimonial__img">
-            <img src="img/testimonial/testimonial1.png" alt="">
-          </div>
-          <div class="testimonial__content">
-            <h3>Stephen Mcmilan</h3>
-            <p>Executive, ACI Group</p>
-            <p class="testimonial__i">Also made from. Give may saying meat there from heaven it lights face had is gathered god earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had also made from. Give may saying meat there from heaven</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  ================ Testimonial section end =================-->         
-
-
-  <!--================ Start Clients Logo Area =================-->
-	
-	<!--================ End Clients Logo Area =================--> -->
-
-
-
-
-
 
   <!-- ================ start footer Area ================= -->
   <footer class="footer-area">
@@ -205,3 +167,76 @@
   <script src="js/main.js"></script>
 </body>
 </html>
+<script>
+  $(document).ready(function(){
+
+      semuaData();
+      dataNegara();
+
+      setInterval(function(){
+        semuaData();
+        dataNegara();
+      },3000);
+   
+      function semuaData(){
+        $.ajax({
+          url : 'https://coronavirus-19-api.herokuapp.com/all',
+          success : function(data){
+              try{
+                var json = data;
+                var kasus = data.cases;
+                var meninggal = data.deaths;
+                var sembuh = data.recovered;
+
+              $('#data-kasus').html(kasus);
+              $('#data-mati').html(meninggal);
+              $('#data-sembuh').html(sembuh);
+
+              }catch{
+                alert('error');
+              }
+          }
+        });
+      }
+      function dataNegara(){
+         $.ajax({
+          url : 'https://coronavirus-19-api.herokuapp.com/countries',
+          success : function(data){
+              try{
+                var json = data;
+                var html = [];
+                if (json.length > 0) {
+                  var i;
+                  for (i = 0; i < json.length; i++) {
+                    var dataNegara = json[i];
+                    var namaNegara = dataNegara.country;
+
+                    if(namaNegara == 'Indonesia'){
+                      var kasus = dataNegara.cases;
+                      var kasushariini = dataNegara.todayCases;
+                      var mati = dataNegara.deaths;
+                      var matihariini = dataNegara.todayDeaths;
+                      var sembuh = dataNegara.recovered;
+                      $('#data-id').html(
+                        'Positif : ' +kasus+ ' Orang <br> Meninggal : '+mati+' Orang <br> Sembuh : '+sembuh+' Orang');
+                      $('#data-terkini').html(
+                        'Positif : ' +kasushariini+ ' Orang <br> Meninggal : '+matihariini+' Orang');
+
+                    }
+                  
+                  }
+                }
+
+              }catch{
+                alert('error');
+              }
+          }
+        });
+        }
+
+    
+
+
+
+  });
+</script>

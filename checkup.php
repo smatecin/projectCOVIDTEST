@@ -75,69 +75,7 @@
       </div>
     </div>
   </section>
-<!--  
-      <div class="row">
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card text-center card-pricing">
-            <div class="card-pricing__header">
-              <h4>Normal</h4>
-              <p>Attend only first day</p>
-              <h1 class="card-pricing__price"><span>$</span>45.00</h1>
-            </div>
-            <ul class="card-pricing__list">
-              <li><i class="ti-check"></i>Unlimited Entrance</li>
-              <li><i class="ti-check"></i>Comfortable Seat</li>
-              <li><i class="ti-check"></i>Paid Certificate</li>
-              <li class="unvalid"><i class="ti-close"></i>Day One Workshop</li>
-              <li class="unvalid"><i class="ti-close"></i>One Certificate</li>
-            </ul>
-            <div class="card-pricing__footer">
-              <button class="button button-light">Buy Now</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card text-center card-pricing">
-            <div class="card-pricing__header">
-              <h4>Advanced</h4>
-              <p>Attend only first day</p>
-              <h1 class="card-pricing__price"><span>$</span>55.00</h1>
-            </div>
-            <ul class="card-pricing__list">
-              <li><i class="ti-check"></i>Unlimited Entrance</li>
-              <li><i class="ti-check"></i>Comfortable Seat</li>
-              <li><i class="ti-check"></i>Paid Certificate</li>
-              <li class="unvalid"><i class="ti-close"></i>Day One Workshop</li>
-              <li class="unvalid"><i class="ti-close"></i>One Certificate</li>
-            </ul>
-            <div class="card-pricing__footer">
-              <button class="button button-light">Buy Now</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card text-center card-pricing">
-            <div class="card-pricing__header">
-              <h4>Ultimate</h4>
-              <p>Attend only first day</p>
-              <h1 class="card-pricing__price"><span>$</span>65.00</h1>
-            </div>
-            <ul class="card-pricing__list">
-              <li><i class="ti-check"></i>Unlimited Entrance</li>
-              <li><i class="ti-check"></i>Comfortable Seat</li>
-              <li><i class="ti-check"></i>Paid Certificate</li>
-              <li class="unvalid"><i class="ti-close"></i>Day One Workshop</li>
-              <li class="unvalid"><i class="ti-close"></i>One Certificate</li>
-            </ul>
-            <div class="card-pricing__footer">
-              <button class="button button-light">Buy Now</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!--================ Pricing section end =================--> 
+
   
   <!-- ================ start footer Area ================= -->
   <footer class="footer-area">
@@ -154,3 +92,4 @@
   <script src="js/main.js"></script>
 </body>
 </html>
+

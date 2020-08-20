@@ -5,15 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Checkup Covid-19</title>
-	<link rel="icon" href="img/icon.png">
-
+  <link rel="icon" href="img/icon.png">
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
   <link rel="stylesheet" href="vendors/linericon/style.css">
   <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
   <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -57,14 +55,15 @@
               <h1>Self Check up Covid-19</h1>
               <p>Website ini berisikan beberapa daftar pertanyaan
               untuk mengecek kondisi fisik anda.</p>
-              
+                <a class="button bg" href="checkup-pertanyaan.php">Cek Diri Anda Sekarang!</a><br>
+                atau <br>
+                  <a class="button bg" href="index.php">kembali ke beranda</a>
             </div>
           </div>
         </div>
       </div>
     </section>
   <!--================ Hero sm Banner end =================-->
-
   
   <!--================ Pricing section start =================-->      
    <section class="section-margin">
@@ -97,7 +96,6 @@
             </div>
           </div>
         </div>
-
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="card text-center card-pricing">
             <div class="card-pricing__header">
@@ -117,7 +115,6 @@
             </div>
           </div>
         </div>
-
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="card text-center card-pricing">
             <div class="card-pricing__header">
@@ -147,10 +144,8 @@
     
 <center> Copyright &copy;<script>document.write(new Date().getFullYear());</script> Smatecin All rights reserved   </center>
         
-
   </footer>
   <!-- ================ End footer Area ================= -->
-
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
   <script src="vendors/owl-carousel/owl.carousel.min.js"></script>

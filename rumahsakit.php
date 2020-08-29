@@ -44,15 +44,24 @@
   <!--================Header Menu Area =================-->
 
   <!--================ Hero sm Banner start =================-->      
-  <section class="hero-banner hero-banner--sm mb-30px">
-    <div class="container">
-      <div class="hero-banner--sm__content">
-        <h1>Rumah Sakit Rujukan</h1>
-        <p>Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit atau Puskesmas yang ada di daerah (Yogyakarta) dimana rumah sakit atau puskesmas tersebut sudah mendapatkan verifikasi dari Kementrian Kesehatan dalam menangani kasus COVID-19</p>
-        </nav>
+  <section class="hero-banner mb-30px">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="hero-banner__img">
+              <img class="img-fluid" src="img/banner/people1.png">
+            </div>
+          </div>
+          <div class="col-lg-5 pt-7">
+            <div class="hero-banner__content">
+              <h1>Rumah Sakit Rujukan</h1>
+              <p>Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit atau Puskesmas yang ada di daerah (Yogyakarta) dimana rumah sakit atau puskesmas tersebut sudah mendapatkan verifikasi dari Kementrian Kesehatan dalam menangani kasus COVID-19</p>
+              
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
   <!--================ Hero sm Banner end =================-->
 
   

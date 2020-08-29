@@ -46,16 +46,24 @@
   <!--================Header Menu Area =================-->
 
   <!--================ Hero sm Banner start =================-->      
-  <section class="hero-banner hero-banner--sm mb-30px">
-    <div class="container">
-      <div class="hero-banner--sm__content">
-        <h1>Kasus COVID-19</h1>
-        <p>Di Indonesia, kasus terkonfirmasi positif COVID-19 pertama kali terdektesi pada
-              Senin, 2 Maret 2020. Sejak itu, jumlah yang terkonfirmasi COVID-19 semakin bertambah dari hari ke hari. </p>
-        </nav>
+  <section class="hero-banner mb-30px">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="hero-banner__img">
+              <img class="img-fluid" src="img/banner/people1.png">
+            </div>
+          </div>
+          <div class="col-lg-5 pt-7">
+            <div class="hero-banner__content">
+              <h1>Kasus COVID-19</h1>
+              <p>Di Indonesia, kasus terkonfirmasi positif COVID-19 pertama kali terdektesi pada Senin, 2 Maret 2020. Sejak itu, jumlah yang terkonfirmasi COVID-19 semakin bertambah dari hari ke hari.</p>
+              
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
   <!--================ Hero sm Banner end =================-->
 
 
@@ -132,14 +140,15 @@
           <div class="row">
             <div class="col-md-3">
               <h2>INDONESIA</h2>
-              <h5 id="data-id" >x</h5>
+              <h5 id="data-id" ></h5>
             </div>
             <div class="col-md-4">
               <img src="img/indonesia.svg" style="width: 150px">
             </div>
             <div class="col-md-5">
               <h2>Terkini</h2>
-              <h5 id="data-terkini">x</h5>
+              <h5 id="data-terkini"></h5>
+
             </div>
           </div>
         </div>

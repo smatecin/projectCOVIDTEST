@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
   <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
 
+  
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -56,7 +58,7 @@
   </section>
   <!--================ Hero sm Banner end =================-->
 
-  
+
   <!--================ Offer section start =================-->
   <style type="text/css">
   .box{
@@ -144,11 +146,32 @@
     </div>
 
 
-  </div>
+        </div>
+            <div class="card mt-3">
+            <div class="card-header  text-white" style="background-color: rgb(65 ,47 ,179);">
+              <b>Data Kasus Corona Virus diIndonesia Bedasarkan Provinsi</b>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered">
+                    <thead>
+                      <th>No.</th>
+                      <th>Nama Provinsi</th>
+                      <th>Positif</th>
+                      <th>Sembuh</th>
+                      <th>Meninggal</th>
+                    </thead>
+                  <tbody id="table-data">
+                    
+                  </tbody>
+                </table>
+            </div>
+      </div>
+    
 </div>
 
-    </div>
-  </section>      
+
+
+    
 
   <!-- ================ start footer Area ================= -->
   <footer class="footer-area">
@@ -165,6 +188,10 @@
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/mail-script.js"></script>
   <script src="js/main.js"></script>
+
+
+
+
 </body>
 </html>
 <script>
@@ -172,7 +199,7 @@
 
       semuaData();
       dataNegara();
-
+      dataProvinsi();
       setInterval(function(){
         semuaData();
         dataNegara();
@@ -234,9 +261,18 @@
         });
         }
 
-    
-
-
-
+        function dataProvinsi(){
+           $.ajax({
+          url : 'curl.php',
+          type : 'GET',
+          success : function(data){
+              try{
+                $('#table-data').html(data);
+              }catch{
+                alert('error');
+              }
+          }
+        });
+      }
   });
 </script>

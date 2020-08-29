@@ -56,11 +56,12 @@
             <div class="hero-banner__content">
               <h1>Rumah Sakit Rujukan</h1>
               <p>Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit atau Puskesmas yang ada di daerah (Yogyakarta) dimana rumah sakit atau puskesmas tersebut sudah mendapatkan verifikasi dari Kementrian Kesehatan dalam menangani kasus COVID-19</p>
-              
+               
             </div>
           </div>
         </div>
       </div>
+        <center><img width="200px" src="https://media.giphy.com/media/Ws45dwz1GX8fzvHXdC/giphy.gif"></center>
     </section>
   <!--================ Hero sm Banner end =================-->
 

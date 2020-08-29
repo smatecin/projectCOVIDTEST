@@ -46,7 +46,7 @@
   <!--================Header Menu Area =================-->
 
   <!--================ Hero sm Banner start =================-->      
-  <section class="hero-banner mb-30px">
+  <section class="hero-banner mb-30px ">
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
@@ -57,12 +57,12 @@
           <div class="col-lg-5 pt-7">
             <div class="hero-banner__content">
               <h1>Kasus COVID-19</h1>
-              <p>Di Indonesia, kasus terkonfirmasi positif COVID-19 pertama kali terdektesi pada Senin, 2 Maret 2020. Sejak itu, jumlah yang terkonfirmasi COVID-19 semakin bertambah dari hari ke hari.</p>
-              
+              <p>Di Indonesia, kasus terkonfirmasi positif COVID-19 pertama kali terdektesi pada Senin, 2 Maret 2020. Sejak itu, jumlah yang terkonfirmasi COVID-19 semakin bertambah dari hari ke hari.</p>              
             </div>
           </div>
         </div>
       </div>
+         <center><img width="200px" src="https://media.giphy.com/media/Ws45dwz1GX8fzvHXdC/giphy.gif"></center>
     </section>
   <!--================ Hero sm Banner end =================-->
 
@@ -95,7 +95,7 @@
           <div class="row">
             <div class="col-md-6">
               <h5>Positif</h5>
-              <h4 id="data-kasus"></h4>
+              <h4 id="data-kasus"><img width="50px" src="img/Preloader.svg"></h4>
               <h5>Orang</h5>
             </div>
             <div class="col-md-4">
@@ -110,7 +110,7 @@
           <div class="row">
             <div class="col-md-6">
               <h5>Meninggal</h5>
-              <h4 id="data-mati"></h4>
+              <h4 id="data-mati"><img width="50px" src="img/Preloader.svg"></h4>
               <h5>Orang</h5>
             </div>
             <div class="col-md-4">
@@ -125,7 +125,7 @@
           <div class="row">
             <div class="col-md-6">
               <h5>Sembuh</h5>
-              <h4 id="data-sembuh"></h4>
+              <h4 id="data-sembuh"><img width="50px" src="img/Preloader.svg"></h4>
               <h5>Orang</h5>
             </div>
             <div class="col-md-4">
@@ -140,14 +140,15 @@
           <div class="row">
             <div class="col-md-3">
               <h2>INDONESIA</h2>
-              <h5 id="data-id" ></h5>
+              <h5 id="data-id" > <td><img width="50px" src="img/Preloader.svg"></td></h5>
             </div>
             <div class="col-md-4">
               <img src="img/indonesia.svg" style="width: 150px">
             </div>
             <div class="col-md-5">
               <h2>Terkini</h2>
-              <h5 id="data-terkini"></h5>
+              <h5 id="data-terkini"><td><img width="50px" src="img/Preloader.svg"></td></h5>
+              <h6 style="color: white">Update Realtime tiap Pukul 16.00 WIB</h6>
 
             </div>
           </div>
@@ -170,7 +171,13 @@
                       <th>Meninggal</th>
                     </thead>
                   <tbody id="table-data">
-                    
+                    <tr>
+                      <td><img width="50px" src="img/Preloader.svg"></td>
+                      <td><img width="50px" src="img/Preloader.svg"></td> 
+                      <td><img width="50px" src="img/Preloader.svg"></td>
+                       <td><img width="50px" src="img/Preloader.svg"></td>
+                        <td><img width="50px" src="img/Preloader.svg"></td>
+                    </tr>
                   </tbody>
                 </table>
             </div>

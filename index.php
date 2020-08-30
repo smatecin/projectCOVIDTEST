@@ -35,7 +35,7 @@
               <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li> 
               <li class="nav-item"><a class="nav-link" href="kasus.php">Kasus</a></li> 
               <li class="nav-item"><a class="nav-link" href="rumahsakit.php">Rumahsakit Rujukan</a></li>
-              <li class="nav-item"><a class="nav-link" href="checkup.php">Checkup!</a></li>
+              <li class="nav-item"><a class="nav-link button-light navbar-light" href="checkup.php">Checkup!</a></li>
             </ul>
               
           </div> 
@@ -53,14 +53,14 @@
         <div class="row">
           <div class="col-lg-7">
             <div class="hero-banner__img">
-              <img class="img-fluid" src="img/banner/people1.png">
+              <img class="img-fluid" src="img/banner/home.png">
             </div>
           </div>
           <div class="col-lg-5 pt-7">
             <div class="hero-banner__content">
               <h1>Apa itu COVID-19?</h1>
               <p>Pneumonia Coronavirus Disease 2019 atau COVID-19 adalah penyakit peradangan paru yang disebabkan oleh Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2). Gejala klinis yang muncul beragam, mulai dari seperti gejala flu biasa (batuk, pilek, nyeri tenggorok, nyeri otot, nyeri kepala) sampai yang berkomplikasi berat (pneumonia atau sepsis).</p>
-              <a class="button bg" href="checkup.php">Cek Diri Anda Sekarang!</a>
+              <a class="button bg" href="checkup.php">Yuk Self-Checkup !</a>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@
       <div class="container">
         <div class="section-intro pb-78px text-center">
           <h1 class="section-intro__title">KENALI GEJALANYA</h1>
-          <p class="section-intro__subtitle"><h3>Jangan Panik, Kenali gejalanya dan deteksi virus corona sejak dini. Hanya perlu mengatur jarak, hindari bersalaman dan bila sakit memakai masker, dan jaga kebersihan</h3></p>
+          <p class="section-intro__subtitle"><h3>Jangan Panik, Kenali gejalanya dan deteksi COVID-19 sejak dini. Hanya perlu jaga jarak, hindari jabat tangan dan bila sakit memakai masker, dan jaga kebersihan</h3></p>
         </div>
 
         <div class="container">
@@ -85,7 +85,7 @@
                  <i> <img class="img-fluid" src="img\gejala_img\demam.png" alt=""></i>
                 </span>
                 <h3 class="card-feature__title">Demam</h3>
-                <p class="card-feature__subtitle">Demam menunjukkan gejala awal corona, demam biasanya mencapai suhu 38 derajat celcius keatas</p>
+                <p class="card-feature__subtitle">Demam menunjukkan gejala awal COVID-19, demam biasanya mencapai suhu 38 derajat celcius keatas</p>
               </div>
             </div>
 
@@ -96,7 +96,7 @@
                  <i> <img class="img-fluid" src="img\gejala_img\batuk.png" alt=""></i>
                 </span>
                 <h3 class="card-feature__title">Batuk Kering</h3>
-                <p class="card-feature__subtitle">Batuk Kering dan berulang ulang merupakan tanda infeksi aktif di paru-paru, yang mungkin disebabkan Corona</p>
+                <p class="card-feature__subtitle">Batuk Kering dan berulang ulang merupakan tanda infeksi aktif di paru-paru, yang mungkin disebabkan COVID-19</p>
               </div>
             </div>
 
@@ -128,7 +128,7 @@
                   <i><img class="img-fluid" src="img\gejala_img\lemas.png" alt=""></i>
                 </span>
                 <h3 class="card-feature__title">Lemas</h3>
-                <p class="card-feature__subtitle">Infeksi COVID-19 yang telah menyebar ke seluruh tubuh akan menghabiskan energi yang banyak sehingga seringkali dapat mengakibatkan lemas</p>
+                <p class="card-feature__subtitle">Infeksi COVID-19 yang telah menyebar ke seluruh tubuh akan menghabiskan energi yang banyak sehingga dapat mengakibatkan lemas</p>
               </div>
             </div>
             <div class="col-lg-4">
@@ -257,7 +257,7 @@
           </div>
           <div class="col-md-7">
             <div class="about__img">
-              <img class="img-fluid" src="img/home/about.png" alt="">
+              <img class="img-fluid" src="img/banner/curva.png" alt="">
             </div>
           </div>
         </div>
@@ -270,7 +270,7 @@
         <div class="row align-items-center pt-xl-3 pb-xl-5">
           <div class="col-lg-6">
             <div class="solution__img text-center text-lg-left mb-4 mb-lg-0">
-              <img class="img-fluid" src="img/home/solution.png" alt="">
+              <img class="img-fluid" src="img/banner/rs.png" alt="">
             </div>
           </div>
           <div class="col-lg-6">

@@ -5,14 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>RS RUJUKAN - Checkup Covid-19</title>
-    <link rel="icon" href="img/icon.png">
-
+  <link rel="icon" href="img/icon.png">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" >
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
   <link rel="stylesheet" href="vendors/linericon/style.css">
   <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
   <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+
+  
 
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -33,10 +35,10 @@
          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
               <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li> 
-              <li class="nav-item"><a class="nav-link" href="kasus.php">Kasus</a></li> 
+              <li class="nav-item "><a class="nav-link" href="kasus.php">Kasus</a></li> 
               <li class="nav-item active"><a class="nav-link" href="rumahsakit.php">Rumahsakit Rujukan</a></li>
               <li class="nav-item"><a class="nav-link" href="checkup.php">Checkup!</a></li>
-            </ul> 
+            </ul>
         </div>
       </nav>
     </div>
@@ -44,7 +46,7 @@
   <!--================Header Menu Area =================-->
 
   <!--================ Hero sm Banner start =================-->      
-  <section class="hero-banner mb-30px">
+  <section class="hero-banner mb-30px ">
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
@@ -55,147 +57,73 @@
           <div class="col-lg-5 pt-7">
             <div class="hero-banner__content">
               <h1>Rumah Sakit Rujukan</h1>
-              <p>Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit atau Puskesmas yang ada di daerah (Yogyakarta) dimana rumah sakit atau puskesmas tersebut sudah mendapatkan verifikasi dari Kementrian Kesehatan dalam menangani kasus COVID-19</p>
-               
+              <p>Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit atau Puskesmas yang ada di daerah (Yogyakarta) dimana rumah sakit atau puskesmas tersebut sudah mendapatkan verifikasi dari Kementrian Kesehatan dalam menangani kasus COVID-19.</p>              
             </div>
           </div>
         </div>
       </div>
-        <center><img width="200px" src="https://media.giphy.com/media/Ws45dwz1GX8fzvHXdC/giphy.gif"></center>
+         <center><img width="200px" src="https://media.giphy.com/media/Ws45dwz1GX8fzvHXdC/giphy.gif"></center>
     </section>
   <!--================ Hero sm Banner end =================-->
 
-  
-  <!--================ Offer section start =================--> 
+   
+  <!--================ Offer section start =================-->
+  <style type="text/css">
+  .box{
+    padding: 30px 40px;
+    border-radius: 4px;
+  }
+  h5 {
+    color: white;
+  }
+   h4 {
+    color: white;
+  }
+  h2 {
+    color: white;
+  }
+</style>
   <section class="section-margin">
-    <div class="container">
-      <div class="section-intro pb-85px text-center">
-        <h2 class="section-intro__title">Rumah Sakit Rujukan</h2>
-        <p class="section-intro__subtitle">Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit atau Puskesmas yang ada di daerah (Yogyakarta) dimana rumah sakit atau puskesmas tersebut sudah mendapatkan verifikasi dari Kementrian Kesehatan dalam menangani kasus COVID-19.</p>
-      </div>
-    </div>
-  </section>     
-<!--   <section class="section-margin">
-    <div class="container">
-      <div class="section-intro pb-85px text-center">
-        <h2 class="section-intro__title">Features We Offer</h2>
-        <p class="section-intro__subtitle">Vel aliquam quis, nulla pede mi commodo tristique nam hac. Luctus torquent velit felis commodo pellentesque nulla cras. Tincidunt hacvel alivquam quis nulla pede mi commodo tristique nam hac  luctus torquent</p>
-      </div>
- -->
-<!--       <div class="row">
-        <div class="col-lg-6">
+   <div class="container">
 
-          <div class="row offer-single-wrapper">
-            <div class="col-lg-6 offer-single">
-              <div class="card offer-single__content text-center">
-                <span class="offer-single__icon">
-                  <i class="ti-pencil-alt"></i>
-                </span>
-                <h4>Easy To Manage</h4>
-                <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
-              </div>
+        <h1 style="text-align: center;">Rumah Sakit Rujukan</h1>
+        <p style="text-align: center;">Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit atau Puskesmas yang ada di daerah (Yogyakarta) dimana rumah sakit atau puskesmas tersebut sudah mendapatkan verifikasi dari Kementrian Kesehatan dalam menangani kasus COVID-19.</p>
+        
+ 
+
+ <div class="card mt-3">
+            <div class="card-header  text-white" style="background-color: rgb(65 ,47 ,179);">
+              <b>Data Rumah Sakit Rujukan COVID-19 di Indonesia</b>
             </div>
-            
-            <div class="col-lg-6 offer-single">
-              <div class="card offer-single__content text-center">
-                <span class="offer-single__icon">
-                  <i class="ti-ruler-pencil"></i>
-                </span>
-                <h4>Analytics Tool</h4>
-                <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
-              </div>
+            <div class="card-body">
+                <table class="table table-bordered">
+                    <thead>
+                      <th>No.</th>
+                      <th>Nama Rumah Sakit</th>
+                      <th>Alamat</th>
+                      <th>Region</th>
+                      <th>Provinsi</th>
+                      <th>Call</th>
+                    </thead>
+                  <tbody>
+                    <tr>
+                      <td><img width="50px" src="img/Preloader.svg"></td>
+                      <td id="data-kasus"><img width="50px" src="img/Preloader.svg"></td> 
+                      <td><img width="50px" src="img/Preloader.svg"></td>
+                       <td><img width="50px" src="img/Preloader.svg"></td>
+                        <td><img width="50px" src="img/Preloader.svg"></td>
+                    </tr>
+                  </tbody>
+                </table>
             </div>
-          </div>
-
-          <div class="row offer-single-wrapper">
-            <div class="col-lg-6 offer-single">
-              <div class="card offer-single__content text-center">
-                <span class="offer-single__icon">
-                  <i class="ti-cut"></i>
-                </span>
-                <h4>Professionals Tools</h4>
-                <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
-              </div>
-            </div>
-            
-            <div class="col-lg-6 offer-single">
-              <div class="card offer-single__content text-center">
-                <span class="offer-single__icon">
-                  <i class="ti-light-bulb"></i>
-                </span>
-                <h4>Ready Content</h4>
-                <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-lg-6">
-          <div class="offer-single__img">
-            <img class="img-fluid" src="img/home/offer.png" alt="">
-          </div>
-        </div>
       </div>
-    </div>
-  </section>
-  ================ Offer section end =================-->
-  
-
-
-
-  <!--================ Testimonial section start =================      
-  <section class="section-padding bg-magnolia">
-    <div class="container">
-      <div class="section-intro pb-5 text-center">
-        <h2 class="section-intro__title">Client Says Me</h2>
-        <p class="section-intro__subtitle">Vel aliquam quis, nulla pede mi commodo tristique nam hac. Luctus torquent velit felis commodo pellentesque nulla cras. Tincidunt hacvel alivquam </p>
-      </div>
-
-      <div class="owl-carousel owl-theme testimonial">
-        <div class="testimonial__item text-center">
-          <div class="testimonial__img">
-            <img src="img/testimonial/testimonial1.png" alt="">
-          </div>
-          <div class="testimonial__content">
-            <h3>Stephen Mcmilan</h3>
-            <p>Executive, ACI Group</p>
-            <p class="testimonial__i">Also made from. Give may saying meat there from heaven it lights face had is gathered god earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had also made from. Give may saying meat there from heaven</p>
-          </div>
         </div>
-        <div class="testimonial__item text-center">
-          <div class="testimonial__img">
-            <img src="img/testimonial/testimonial1.png" alt="">
-          </div>
-          <div class="testimonial__content">
-            <h3>Stephen Mcmilan</h3>
-            <p>Executive, ACI Group</p>
-            <p class="testimonial__i">Also made from. Give may saying meat there from heaven it lights face had is gathered god earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had also made from. Give may saying meat there from heaven</p>
-          </div>
-        </div>
-        <div class="testimonial__item text-center">
-          <div class="testimonial__img">
-            <img src="img/testimonial/testimonial1.png" alt="">
-          </div>
-          <div class="testimonial__content">
-            <h3>Stephen Mcmilan</h3>
-            <p>Executive, ACI Group</p>
-            <p class="testimonial__i">Also made from. Give may saying meat there from heaven it lights face had is gathered god earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had also made from. Give may saying meat there from heaven</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  ================ Testimonial section end =================-->         
+           
+ 
+</section>
 
 
-  <!--================ Start Clients Logo Area =================-->
-
-  <!--================ End Clients Logo Area =================--> -->
-
-
-
-
-
+    
 
   <!-- ================ start footer Area ================= -->
   <footer class="footer-area">
@@ -204,7 +132,6 @@
         
 
   </footer>
-  
   <!-- ================ End footer Area ================= -->
 
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
@@ -213,5 +140,44 @@
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/mail-script.js"></script>
   <script src="js/main.js"></script>
+
+
+
+
 </body>
 </html>
+<script>
+  $(document).ready(function(){
+
+      semuaData();
+     
+      setInterval(function(){
+        semuaData();
+        dataNegara();
+      },3000);
+   
+      function semuaData(){
+        $.ajax({
+          url : 'https://dekontaminasi.com/api/id/covid19/hospitals',
+          success : function(data){
+              try{
+                var json = data;
+                var kasus = data.name;
+                var meninggal = data.address;
+                var sembuh = data.region;
+
+              $('#data-kasus').html(kasus);
+              $('#data-mati').html(meninggal);
+              $('#data-sembuh').html(sembuh);
+
+              }catch{
+                alert('error');
+              }
+          }
+        });
+      }
+     
+
+       
+  });
+</script>

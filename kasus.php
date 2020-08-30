@@ -51,7 +51,7 @@
         <div class="row">
           <div class="col-lg-7">
             <div class="hero-banner__img">
-              <img class="img-fluid" src="img/banner/people1.png">
+              <img class="img-fluid" src="img/banner/curva.png">
             </div>
           </div>
           <div class="col-lg-5 pt-7">
@@ -88,7 +88,7 @@
 
         <h1 style="text-align: center;">Kasus Covid-19 Terkini</h1>
         <p style="text-align: center;">Berikut adalah jumlah kasus Positif, Meninggal, dan Sembuh seluruh dunia</p>
-        </nav>
+       
   <div class="row">
     <div class="col-md-4">
         <div class="bg-danger box text-white">
@@ -154,12 +154,13 @@
           </div>
         </div>
     </div>
+</div>
 
 
-        </div>
+
             <div class="card mt-3">
             <div class="card-header  text-white" style="background-color: rgb(65 ,47 ,179);">
-              <b>Data Kasus Corona Virus diIndonesia Bedasarkan Provinsi</b>
+              <b>Data Kasus COVID-19 diIndonesia Bedasarkan Provinsi</b>
             </div>
             <div class="card-body">
                 <table class="table table-bordered">
@@ -182,9 +183,11 @@
                 </table>
             </div>
       </div>
-    
-</div>
+    </div>
 
+</div></section>
+
+     
 
 
     

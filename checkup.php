@@ -47,7 +47,7 @@
         <div class="row">
           <div class="col-lg-7">
             <div class="hero-banner__img">
-              <img class="img-fluid" src="img/banner/people1.png" alt="">
+              <img class="img-fluid" width="500px" src="img/banner/self-checkup.png" alt="">
             </div>
           </div>
           <div class="col-lg-5 pt-7">

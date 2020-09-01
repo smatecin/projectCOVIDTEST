@@ -82,25 +82,16 @@
   <!--================Header Menu Area =================-->
 
   <!--================ Hero sm Banner start =================-->      
- <section class="hero-banner mb-30px ">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7">
-            <div class="hero-banner__img">
-              <img class="img-fluid" src="img/banner/curva.png">
-            </div>
-          </div>
-          <div class="col-lg-5 pt-7">
-            <div class="hero-banner__content">
-              <h1>Kasus COVID-19</h1>
-              <p>Di Indonesia, kasus terkonfirmasi positif COVID-19 pertama kali terdektesi pada Senin, 2 Maret 2020. Sejak itu, jumlah yang terkonfirmasi COVID-19 semakin bertambah dari hari ke hari.</p>              
-            </div>
-          </div>
-        </div>
+  <section class="hero-banner hero-banner--sm mb-30px">
+    <div class="container">
+      <div class="hero-banner--sm__content">
+        <h1>Kasus COVID-19</h1>
+        <p>Di Indonesia, kasus terkonfirmasi positif COVID-19 pertama kali terdektesi pada
+              Senin, 2 Maret 2020. Sejak itu, jumlah yang terkonfirmasi COVID-19 semakin bertambah dari hari ke hari. </p>
+        </nav>
       </div>
-         <center><img width="200px" src="https://media.giphy.com/media/Ws45dwz1GX8fzvHXdC/giphy.gif"></center>
-    </section>
-
+    </div>
+  </section>
   <!--================ Hero sm Banner end =================-->
 
   
@@ -132,7 +123,7 @@
           <div class="row">
             <div class="col-md-6">
               <h5>Positif</h5>
-              <h4 id="data-kasus"><td><img width="50px" src="img/Preloader.svg"></h4>
+              <h4 id="data-kasus"></h4>
               <h5>Orang</h5>
             </div>
             <div class="col-md-4">
@@ -147,7 +138,7 @@
           <div class="row">
             <div class="col-md-6">
               <h5>Meninggal</h5>
-              <h4 id="data-mati"><td><img width="50px" src="img/Preloader.svg"></h4>
+              <h4 id="data-mati"></h4>
               <h5>Orang</h5>
             </div>
             <div class="col-md-4">
@@ -162,7 +153,7 @@
           <div class="row">
             <div class="col-md-6">
               <h5>Sembuh</h5>
-              <h4 id="data-sembuh"><td><img width="50px" src="img/Preloader.svg"></h4>
+              <h4 id="data-sembuh"></h4>
               <h5>Orang</h5>
             </div>
             <div class="col-md-4">
@@ -177,16 +168,14 @@
           <div class="row">
             <div class="col-md-3">
               <h2>INDONESIA</h2>
-              <h5 id="data-id" ><td><img width="50px" src="img/Preloader.svg"></h5>
+              <h5 id="data-id" >x</h5>
             </div>
             <div class="col-md-4">
               <img src="img/indonesia.svg" style="width: 150px">
             </div>
             <div class="col-md-5">
               <h2>Terkini</h2>
-              <h5 id="data-terkini"><td><img width="50px" src="img/Preloader.svg"></h5>
-                 <h6 style="color: white">Update Realtime tiap Pukul 16.00 WIB</h6>
-
+              <h5 id="data-terkini">x</h5>
             </div>
           </div>
         </div>
@@ -199,7 +188,7 @@
             </div>
             <div class="card-body">
                 <table id="example" class="table table-striped table-bordered" cellspacing="0" style="width:100%">
-                
+                <!-- <table id="example" class="table table-striped table-bordered" style="width:100%"> -->
                     <thead>
                       <th>No.</th>
                       <th>Nama Provinsi</th>
@@ -208,22 +197,55 @@
                       <th>Meninggal</th>
                     </thead>
                   <tbody id="table-data">
-                    <tr>
-                      <td><img width="50px" src="img/Preloader.svg"></td>
-                      <td><img width="50px" src="img/Preloader.svg"></td> 
-                      <td><img width="50px" src="img/Preloader.svg"></td>
-                       <td><img width="50px" src="img/Preloader.svg"></td>
-                        <td><img width="50px" src="img/Preloader.svg"></td>
-                    </tr>
-
+                    
                   </tbody>
                 </table>
             </div>
           </div>
       </div>
-    <br>
+    
 </div>
 
+<!-- ROW-2 OPEN -->
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xl-16">
+                <div class="card overflow-hidden bg-white work-progress">
+                  <div class="card-header">
+                    <h3 class="card-title">Statistik Kasus Coronavirus di Indonesia</h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="chart-wrapper">
+                      <canvas id="total-coversations" class="h-160 chart-dropshadow-info"></canvas>
+                    </div>
+                    <div class="row mt-6">
+                      <div class="col text-center">
+                        <h5 class="font-weight-normal mt-2">POSITIF</h5>
+                        <h3 class="text-xxl mb-1 social-content  number-font">165,887</h3>
+                        <p class="mb-0 text-muted"><span class="text-lg font-weight-700"></span>ORANG</p>
+                        
+                      </div>
+                      <div class="col text-center">
+                        <h5 class="font-weight-normal mt-2">SEMBUH</h5>
+                        <h3 class="text-xxl mb-1 social-content danger number-font">120,900</h3>
+                        <p class="mb-0 text-muted"><span class="text-lg font-weight-700"></span>ORANG</p>
+                        
+                      </div>
+                      <div class="col text-center">
+                        <h5 class="font-weight-normal mt-2">MENINGGAL</h5>
+                        <h3 class="text-xxl mb-1 social-content  number-font">7,169</h3>
+                        <p class="mb-0 text-muted"><span class="text-lg font-weight-700"></span>ORANG</p>
+                      
+                      </div>
+                      <div class="chart-wrapper">
+                      <canvas id="deals" class="chart-dropshadow-success" hidden></canvas>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- COL END -->
+              
+            </div>
+            <!-- ROW-2 CLOSED -->
 
     
 
@@ -260,7 +282,6 @@
       setInterval(function(){
         semuaData();
         dataNegara();
-
       },3000);
    
       function semuaData(){
@@ -341,6 +362,20 @@
       }
   });
 </script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+    <script>
+   $(document).ready(function() {
+    $('#example').DataTable( {
+        "order": [[ 4, "asc" ]]
+    } );
+} );
+
+    </script>
 
 

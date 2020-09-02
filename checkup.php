@@ -42,7 +42,7 @@
   <!--================Header Menu Area =================-->
   <main class="side-main">
   <!--================ Hero sm Banner start =================-->      
-  <section class="hero-banner mb-30px">
+  <section class="hero-banner mb-10px">
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
@@ -52,12 +52,9 @@
           </div>
           <div class="col-lg-5 pt-7">
             <div class="hero-banner__content">
-              <h1>Self Check up Covid-19</h1>
-              <p>Website ini berisikan beberapa daftar pertanyaan
-              untuk mengecek kondisi fisik anda.</p>
+              <h1>Salam, Indonesia Tangguh Melawan COVID-19</h1>
+              <p><font size="3px">Saat ini dengan mulai munculnya ODP, PDP dan kasus Positif COVID-19 di Indonesia, tentunya self-checkup COVID-19 akan dibutuhkan oleh masyarakat.</font></p>
                 <a class="button bg" href="checkup-pertanyaan.php">Cek Diri Anda Sekarang!</a><br>
-                atau <br>
-                  <a class="button bg" href="index.php">kembali ke beranda</a>
             </div>
           </div>
         </div>
@@ -68,10 +65,11 @@
   <!--================ Pricing section start =================-->      
    <section class="section-margin">
     <div class="container">
-      <div class="section-intro pb-85px text-center">
-        <h2 class="section-intro__title">Self Check up Covid-19</h2>
-        <p class="section-intro__subtitle">Website ini berisikan beberapa daftar pertanyaan
-              untuk mengecek kondisi fisik anda.</p>
+      <div class="section-intro pb-100px ">
+        <h2 class="section-intro__title text-center">Self Check up Covid-19</h2>
+        <p class="section-intro__subtitle text-left" ><font size="5"><p>Self assesment ini adalah alat sederhana yang bisa membantu menentukan apakah Anda sehat-sehat saja atau ada gejala yang memerlukan penilaian, pemeriksaan dan pengujian lebih lanjut untuk COVID-19.<br>
+
+Alat self assesment diadaptasi dari Self Assesment COVID-19 dari British Columbia, Kanada. Anda dapat menyelesaikan penilaian ini untuk diri sendiri maupun orang lain..</font></p>
       </div>
     </div>
   </section>

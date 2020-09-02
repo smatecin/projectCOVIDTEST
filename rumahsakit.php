@@ -95,7 +95,7 @@
      <div class="container">
       <div class="card col-md-15 mb-7">
             <div class="card-header  text-white" style="background-color: rgb(65 ,47 ,179);">
-              <b>Data Kasus Corona Virus diIndonesia Bedasarkan Provinsi</b>
+              <b>Data Rumah Sakit Rujukan COVID-19 diIndonesia</b>
             </div>
       <div class="card-body">
     <!-- table -->
@@ -219,7 +219,7 @@
                 <td>RSUP DR. SARDJITO</td>
                 <td>JL KESEHATAN NO.1 SEKIP YOGYAKARTA</td>
                 <td>SLEMAN, DAERAH ISTIMEWA YOGYAKARTA</td>
-                <td>(0274) 631190</td>
+                <td>(0274) 583613</td>
                 <td>DI Yogyakarta</td>
             </tr>
             <tr>
@@ -1062,7 +1062,7 @@
       </div>
     </div>
   </div>  
-
+</div></section>
            
  
 </section>

@@ -18,40 +18,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
 
   <link rel="stylesheet" href="css/style.css">
-  <!-- BOOTSTRAP CSS -->
-    <link href="data/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
-    <!-- STYLE CSS -->
-    <link href="data/css/newstyle.css" rel="stylesheet"/>
-    <link href="data/css/skin-modes.css" rel="stylesheet"/>
-
-    <!--HORIZONTAL CSS-->
-    <link href="data/plugins/horizontal-menu/horizontal-menu.css" rel="stylesheet" />
-
-    <!--C3.JS CHARTS CSS -->
-    <link href="data/plugins/charts-c3/c3-chart.css" rel="stylesheet"/>
-
-    <!--MORRIS CSS -->
-    <link href="data/plugins/morris/morris.css" rel="stylesheet"/>
-
-    <!-- CUSTOM SCROLL BAR CSS-->
-    <link href="data/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet"/>
-
-    <!--- FONT-ICONS CSS -->
-    <link href="data/css/icons.css" rel="stylesheet"/>
-
-    <!-- SIDEBAR CSS -->
-    <link href="data/plugins/sidebar/sidebar.css" rel="stylesheet">
-
-    <!-- COLOR SKIN CSS -->
-    <link id="theme" rel="stylesheet" type="text/css" media="all" href="data/colors/color1.css" />
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101162957-2" type="d70a932c05458c89bc35185d-text/javascript"></script>
-<script type="d70a932c05458c89bc35185d-text/javascript">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-101162957-2');
+ 
 </script>
 </head>
 <body>
@@ -225,16 +192,6 @@
 </div>
 
 
-    
-
-  <!-- ================ start footer Area ================= -->
-  <footer class="footer-area">
-    
-<center> Copyright &copy;<script>document.write(new Date().getFullYear());</script> Smatecin All rights reserved   </center>
-        
-
-  </footer>
-  <!-- ================ End footer Area ================= -->
 
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
@@ -250,6 +207,17 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+    
+    
+
+  <!-- ================ start footer Area ================= -->
+  <footer class="footer-area">
+    
+<center> Copyright &copy;<script>document.write(new Date().getFullYear());</script> Smatecin All rights reserved   </center>
+        
+
+  </footer>
+  <!-- ================ End footer Area ================= -->
 </body>
 </html>
 <script>

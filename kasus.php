@@ -92,7 +92,7 @@
 
         <h1 style="text-align: center;">Kasus Covid-19 Terkini</h1>
         <p style="text-align: center;">Berikut adalah jumlah kasus Positif, Meninggal, dan Sembuh seluruh dunia</p>
-        </nav>
+       
   <div class="row">
     <div class="col-md-4">
         <div class="bg-danger box text-white">

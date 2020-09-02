@@ -60,18 +60,32 @@
         </div>
          <center><img width="200px" src="https://media.giphy.com/media/Ws45dwz1GX8fzvHXdC/giphy.gif"></center>
       </div>
+
      
     </section>
   <!--================ Hero sm Banner end =================-->
   
-  <!--================ Pricing section start =================-->      
-   <section class="section-margin">
+  <!--================ Pricing section start =================--> 
+
+  <section class="section-margin">
     <div class="container">
       <div class="section-intro pb-100px ">
-        <div class="et_pb_code_inner"><div class="typeform-widget" data-url="https://accounts096584.typeform.com/to/inxQDZ" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: 'Lato', sans-serif; font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">  <a href="https://admin.typeform.com/signup?utm_source=typeform.com-01E3KBMYE89HJDX3KP72A500MY-professional&#038;" ></a> </div></div>
+
+
+
+
+         <h1 style="text-align: center;">Self Checkup COVID-19</h1>
+        
+       
+      <center>
+       <iframe src="test.php" height="600" width="100%" style="border:none;" scrolling="no"></iframe>
+       </center>
+       
       </div>
     </div>
   </section>
+    
+
 
   
   <!-- ================ start footer Area ================= -->

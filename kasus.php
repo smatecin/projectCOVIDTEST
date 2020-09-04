@@ -187,13 +187,104 @@
                 </table>
             </div>
           </div>
+      </div></section>
+   
+
+
+
+ 
+  
+  <!-- ================ start footer Area ================= -->
+  <footer class="footer-area" style="padding: 10px 0px 10px">
+
+  
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold" style="color: white;">Hotline COVID-19<br>
+        Kemenkes RI </h6>
+        <h2> <i class="fas fa-phone mr-3"></i> Tlp. 199 ext 9 </h2>
+        <h6 class="text-uppercase font-weight-bold" style="color: white;">Website Mitigasi COVID-19 UMY </h6>
+        <h2> <a href="https://covid-19.umy.ac.id/">Covid-19.umy.ac.id</a></h2>
+
       </div>
-    <br>
-</div>
+      
+      <div class="col-sm-4 footer_widget hide_footer_widget">
 
+        <h4 class="widget_title">Kontak</h4>
+        <table>
+                <tr>
+                  <td width="120">Telp</td>
+                  <td>: +62 274 387656 (hunting)</td>
+                </tr>
+                <tr>
+                  <td>Faks</td>
+                  <td>: +62 274 387646</td>
+                </tr>
+                <tr>
+                  <td>Admisi</td>
+                                                                        <td>: +62 274 387649 </td>
+                                                                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                                                                        <td>&nbsp; +62 274 387656 Ext. 199 & 200 (hunting)</td>
+                </tr>
+                <tr>
+                  <td>Humas</td>
+                  <td>: +62 274 387656 Ext. 115</td>
+                </tr>
+                <tr>
+                  <td>Surel</td>
+                  <td>: bhp@umy.ac.id</td>
+                </tr>
+              </table>
 
+      </div>
+      <!-- Grid column -->
 
-  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+       
+            <h4 class="widget_title">Alamat</h4>
+            <section  class="footer_widget_content">
+              Kampus Terpadu UMY<br>
+              Jl. Brawijaya,<br>
+              Kasihan, Bantul<br>
+              Yogyakarta 55183<br>
+              <a href="https://goo.gl/MmskEh">Lihat di Peta Google</a>
+            </section>
+        
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Smatecin All rights reserved
+  </div>
+  <!-- Copyright -->
+
+</footer>
+        
+  <!-- ================ End footer Area ================= -->
+</body>
+
+</html>
+ <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
   <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
   <script src="js/jquery.ajaxchimp.min.js"></script>
@@ -207,19 +298,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
-    
-    
 
-  <!-- ================ start footer Area ================= -->
-  <footer class="footer-area">
-    
-<center> Copyright &copy;<script>document.write(new Date().getFullYear());</script> Smatecin All rights reserved   </center>
-        
-
-  </footer>
-  <!-- ================ End footer Area ================= -->
-</body>
-</html>
 <script>
   $(document).ready(function(){
       semuaData();

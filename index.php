@@ -96,7 +96,7 @@
                  <i> <img class="img-fluid" src="img\gejala_img\batuk.png" alt=""></i>
                 </span>
                 <h3 class="card-feature__title">Batuk Kering</h3>
-                <p class="card-feature__subtitle">Batuk Kering dan berulang ulang merupakan tanda infeksi aktif di paru-paru, yang mungkin disebabkan COVID-19</p>
+                <p class="card-feature__subtitle">Sering Batuk Berulang-ulang merupakan tanda infeksi di paru-paru, yang mungkin disebabkan COVID-19</p>
               </div>
             </div>
 
@@ -107,7 +107,7 @@
                   <i><img class="img-fluid" src="img\gejala_img\sakittenggorokan.png" alt=""></i>
                 </span>
                 <h3 class="card-feature__title">Sakit Tenggorokan</h3>
-                <p class="card-feature__subtitle">Infeksi COVID-19 akan melalui jalur pernafasan sehingga dapat mengakibatkan radang pada tenggorokan dan rasa nyeri</p>
+                <p class="card-feature__subtitle">Infeksi COVID-19 akan melalui jalur pernafasan sehingga  mengakibatkan radang tenggorokan dan rasa nyeri</p>
               </div>
             </div>
 
@@ -167,7 +167,7 @@
                      <i><img class="img-fluid" src="img\pencegahan_img\cuci_tangan.png" alt=""></i>
                   </span>
                   <h4>Cuci Tangan</h4>
-                  <p>Bersihkan tangan Anda secara rutin. Gunakan sabun dan air, atau cairan pembersih tangan berbahan alkohol.</p>
+                  <p>Cuci tangan sebelum dan sesudah melakukan aktifitas.</p>
                 </div>
               </div>
               
@@ -177,7 +177,7 @@
                     <i><img class="img-fluid" src="img\pencegahan_img\sabun.png" alt=""></i>
                   </span>
                   <h4>Gunakan Sabun Antiseptic</h4>
-                  <p>Selalu jaga jarak yang aman dengan orang yang batuk atau bersin.</p>
+                  <p>Sabun Antiseptic bertujuan untuk membunuh kuman yang menempel pada tangan</p>
                 </div>
               </div>
             </div>
@@ -189,7 +189,7 @@
                     <i><img class="img-fluid" src="img\pencegahan_img\masker.png" alt=""></i>
                   </span>
                   <h4>Selalu Gunakan Masker</h4>
-                  <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
+                  <p>Gunakan masker untuk mencegah ataupun mengurangi droplet</p>
                 </div>
               </div>
 
@@ -200,7 +200,7 @@
                     <i><img class="img-fluid" src="img\pencegahan_img\kerumunan.png" alt=""></i>
                   </span>
                   <h4>Hindari Kerumunan</h4>
-                  <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
+                  <p>Tujuannya untuk memutus penyebaran COVID-19 di kerumunan</p>
                 </div>
 
               </div>
@@ -211,7 +211,7 @@
                     <i><img class="img-fluid" src="img\pencegahan_img\jabattangan.png" alt=""></i>
                   </span>
                   <h4>Hindari Kontak Langsung</h4>
-                  <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
+                  <p>Hindari jabat tangan dengan orang lain.</p>
                 </div>
               </div>
 
@@ -221,7 +221,7 @@
                     <i><img class="img-fluid" src="img\pencegahan_img\desin.png" alt=""></i>
                   </span>
                   <h4>Semprotkan Desinfektan</h4>
-                  <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
+                  <p>Bersihkan benda yang sering disentuh agar selalu steril dengan desinfektan.</p>
                 </div>
               </div>
             </div>
@@ -291,12 +291,94 @@
 
 
   <!-- ================ start footer Area ================= -->
-  <footer class="footer-area">
+  
 		
-<center> Copyright &copy;<script>document.write(new Date().getFullYear());</script> Smatecin All rights reserved   </center>
+<footer class="footer-area" style="padding: 10px 0px 10px">
+
+  
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold" style="color: white;">Hotline COVID-19<br>
+        Kemenkes RI </h6>
+        <h2> <i class="fas fa-phone mr-3"></i> Tlp. 199 ext 9 </h2>
+        <h6 class="text-uppercase font-weight-bold" style="color: white;">Website Mitigasi COVID-19 UMY </h6>
+        <h2> <a href="https://covid-19.umy.ac.id/">Covid-19.umy.ac.id</a></h2>
+
+      </div>
+      
+      <div class="col-sm-4 footer_widget hide_footer_widget">
+
+        <h4 class="widget_title">Kontak</h4>
+        <table>
+                <tr>
+                  <td width="120">Telp</td>
+                  <td>: +62 274 387656 (hunting)</td>
+                </tr>
+                <tr>
+                  <td>Faks</td>
+                  <td>: +62 274 387646</td>
+                </tr>
+                <tr>
+                  <td>Admisi</td>
+                                                                        <td>: +62 274 387649 </td>
+                                                                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                                                                        <td>&nbsp; +62 274 387656 Ext. 199 & 200 (hunting)</td>
+                </tr>
+                <tr>
+                  <td>Humas</td>
+                  <td>: +62 274 387656 Ext. 115</td>
+                </tr>
+                <tr>
+                  <td>Surel</td>
+                  <td>: bhp@umy.ac.id</td>
+                </tr>
+              </table>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+       
+            <h4 class="widget_title">Alamat</h4>
+            <section  class="footer_widget_content">
+              Kampus Terpadu UMY<br>
+              Jl. Brawijaya,<br>
+              Kasihan, Bantul<br>
+              Yogyakarta 55183<br>
+              <a href="https://goo.gl/MmskEh">Lihat di Peta Google</a>
+            </section>
+        
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Smatecin All rights reserved
+  </div>
+  <!-- Copyright -->
+
+</footer>
 				
 
-	</footer>
   <!-- ================ End footer Area ================= -->
 
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>

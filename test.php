@@ -1,132 +1,244 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
-<meta name="apple-mobile-web-app-title" content="CodePen">
-<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
-<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
-<title>CodePen - Simply Bootstrap Slider for text item &amp; image</title>
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-<style>
-ol.carousel-indicators {
-  position: relative;
-  top: 10px;
-}
-ol.carousel-indicators > li {
-  background-color: grey;
-}
-ol.carousel-indicators > li.active {
-  background-color: green;
-}
-</style>
-<script>
-  window.console = window.console || function(t) {};
-</script>
-<script>
-  if (document.location.search.match(/type=embed/gi)) {
-    window.parent.postMessage("resize", "*");
-  }
-</script>
+  <title>Self Risk Assesment Covid-19</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
-<body translate="no">
+<body>
 
 
-<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-0">
-<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+  <div class="container">
 
-<ol class="carousel-indicators">
-<li data-target="#myCarousel" data-slide-to="0" class=""></li>
-<li data-target="#myCarousel" data-slide-to="1"></li>
-<li data-target="#myCarousel" data-slide-to="2"></li>
-<li data-target="#myCarousel" data-slide-to="3"></li>
-<li data-target="#myCarousel" data-slide-to="4"></li>
-<li data-target="#myCarousel" data-slide-to="5"></li>
-<li data-target="#myCarousel" data-slide-to="6"></li>
-<li data-target="#myCarousel" data-slide-to="7"></li>
-<li data-target="#myCarousel" data-slide-to="8"></li>
-</ol>
+    <form action="hasil.php" method="POST">
+    <table class="table table-striped">
+                                    <thead>
+                                    <tr>
+                                      <th>No</th>
+                                      <th>Kegiatan</th>
+                                      <th>Ya</th>
+                                      <th>Tidak</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                        <td><b>A</b></td>
+                                        <td>
+                                          <b>Potensi Tertular Di Luar Rumah</b>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td>1</td>
+                                        <td>
+                                          Saya pergi keluar rumah
+                                        </td>
+                                        <td><input type="radio" name="satu" value="1" required><b></b></td>
+                                        <td><input type="radio" name="satu" value="0" ><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>2</td>
+                                        <td>
+                                         Saya menggunakan Transportasi umum: Online, angkot, bus, taksi, kereta api
+                                        </td>
+                                       <td><input type="radio" name="dua" value="1" required><b></b></td>
+                                        <td><input type="radio" name="dua" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>3</td>
+                                        <td>
+                                        Saya berjabat tangan dengan orang lain
+                                        </td>
+                                        <td><input type="radio" name="tiga" value="1" required><b></b></td>
+                                        <td><input type="radio" name="tiga" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>4</td>
+                                        <td>
+                                        Saya tidak memakai masker pada saat berkumpul dengan orang lain
+                                        </td>
+                                        <td><input type="radio" name="empat" value="1" required><b></b></td>
+                                        <td><input type="radio" name="empat" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>5</td>
+                                        <td>
+                                        Saya tidak membersihkan tangan dengan hand sanitizer / tissue basah sebelum pegang kemudi mobil/motor
+                                        </td>
+                                       <td><input type="radio" name="lima" value="1" required><b></b></td>
+                                        <td><input type="radio" name="lima" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>6</td>
+                                        <td>
+                                        Saya menyentuh benda/uang yang juga disentuh orang lain
+                                        </td>
+                                         <td><input type="radio" name="enam" value="1" required><b></b></td>
+                                        <td><input type="radio" name="enam" value="0"><b></b></td>
+                                      </tr>
+                                       <tr>
+                                        <td>7</td>
+                                        <td>
+                                        Saya tidak menjaga jarak 1,5m dengan orang lain ketika: belanja, bekerja, beribadah, belajar
+                                        </td>
+                                         <td><input type="radio" name="tujuh" value="1" required><b></b></td>
+                                        <td><input type="radio" name="tujuh" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>8</td>
+                                        <td>
+                                        Saya makan diluar rumah (warung)
+                                        </td>
+                                         <td><input type="radio" name="delapan" value="1" required><b></b></td>
+                                        <td><input type="radio" name="delapan" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>9</td>
+                                        <td>
+                                        Saya tidak minum air hangat & cuci tangan dengan sabun setelah tiba di tujuan
+                                        </td>
+                                         <td><input type="radio" name="sembilan" value="1" required><b></b></td>
+                                        <td><input type="radio" name="sembilan" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>10</td>
+                                        <td>
+                                        Saya berada diwilayah kelurahan tempat pasien tertular
+                                        </td>
+                                         <td><input type="radio" name="sepuluh" value="1" required><b></b></td>
+                                        <td><input type="radio" name="sepuluh" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td><b>B</b></td>
+                                        <td>
+                                          <b>Potensi Tertular Di Dalam Rumah</b>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td>11</td>
+                                        <td>
+                                        Saya tidak pasang hand sanitizer di depan pintu masuk, untuk bersihkan tangan sebelum pegang gagang (handle) pintu masuk rumah
+                                        </td>
+                                         <td><input type="radio" name="sebelas" value="1" required><b></b></td>
+                                        <td><input type="radio" name="sebelas" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>12</td>
+                                        <td>
+                                        Saya tidak mencuci tangan dengan sabun setelah tiba di rumah
+                                        </td>
+                                         <td><input type="radio" name="duabelas" value="1" required><b></b></td>
+                                        <td><input type="radio" name="duabelas" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>13</td>
+                                        <td>
+                                        Saya tidak segera merendam baju dan celan bekas pakai diluar rumah kedalam air panas/sabun
+                                        </td>
+                                         <td><input type="radio" name="tigabelas" value="1" required><b></b></td>
+                                        <td><input type="radio" name="tigabelas" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>14</td>
+                                        <td>
+                                        saya tidak segera mandi keramas setelah tiba dirumah
+                                        </td>
+                                         <td><input type="radio" name="empatbelas" value="1" required><b></b></td>
+                                        <td><input type="radio" name="empatbelas" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>15</td>
+                                        <td>
+                                        saya tidak mensosialisasikan checklist ini kepada keluarga dirumah
+                                        </td>
+                                         <td><input type="radio" name="limabelas" value="1" required><b></b></td>
+                                        <td><input type="radio" name="limabelas" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>16</td>
+                                        <td>
+                                        Saya tidak menyediakan: tissue basah/antiseptic, masker, sabun antiseptic bagi keluarga di rumah
+                                        </td>
+                                         <td><input type="radio" name="enambelas" value="1" required><b></b></td>
+                                        <td><input type="radio" name="enambelas" value="0"><b></b></td>
+                                      </tr>
+                                       <tr>
+                                        <td><b>C</b></td>
+                                        <td>
+                                          <b>Daya Tahan Tubuh (Imunitas)</b>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td>17</td>
+                                        <td>
+                                        saya dalam sehari tidak kena cahaya matahari minimal 15 menit
+                                        </td>
+                                         <td><input type="radio" name="tujuhbelas" value="1" required><b></b></td>
+                                        <td><input type="radio" name="tujuhbelas" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>18</td>
+                                        <td>
+                                       Saya tidak jalan kaki/berolahraga minimal 30 menit setiap hari
+                                        </td>
+                                         <td><input type="radio" name="delapanbelas" value="1" required><b></b></td>
+                                        <td><input type="radio" name="delapanbelas" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>19</td>
+                                        <td>
+                                       Saya jarang minum vitamin C dan E dan kurang tidur
+                                        </td>
+                                         <td><input type="radio" name="sembilanbelas" value="1" required><b></b></td>
+                                        <td><input type="radio" name="sembilanbelas" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>20</td>
+                                        <td>
+                                        Usia saya diatas 60 tahun
+                                        </td>
+                                         <td><input type="radio" name="duapuluh" value="1" required><b></b></td>
+                                        <td><input type="radio" name="duapuluh" value="0"><b></b></td>
+                                      </tr>
+                                      <tr>
+                                        <td>21</td>
+                                        <td>
+                                        Saya mempunyai penyakit: jantung/diabetes/gangguan pernapasan kronik
+                                        </td>
+                                         <td><input type="radio" name="duasatu" value="1" required><b></b></td>
+                                        <td><input type="radio" name="duasatu" value="0"><b></b></td>
+                                      </tr>
+                                    </tbody>
+                                    <tfoot>
+                                      <tr class="totals-row">
+                                        <td colspan="4" class="wide-cell" style="text-align:right;">
+                                          <button type="submit" class="submit btn btn-primary btn-block" name="login" value="Login" >&nbsp;&nbsp;Lihat Hasil&nbsp;&nbsp;</button>
+                                        </td>
+                                      </tr>
+                                    </tfoot>
+                                  </table>
+                                </form>
+  </div>  
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>Disclaimer: sumber dari Asosiasi Klinik Indonesia & Group WA</p>
+        
+
+    </footer>
 
 
 
-<form method="POST" action="hasil.php">
-<div class="carousel-inner" role="listbox">
-<div class="item active">
-<h4>1.Apakah anda mengalami batuk, pilek dan nyeri tenggorokan?</h4>
-  <input class="form-check-input" type="radio" name="pert1" value="YA">
-  <label class="form-check-label" >YA</label>
-  <input class="form-check-input" type="radio" name="pert1" value="TIDAK">
-  <label class="form-check-label" >TIDAK</label>
-</div>
-
-<div class="item ">
-<h4>2.Apakah suhu tubuh anda diatas 38' Celcius? </h4>
- <input class="form-check-input" type="radio" name="pert2" value="YA">
-  <label class="form-check-label" >YA</label>
-  <input class="form-check-input" type="radio" name="pert2" value="TIDAK">
-  <label class="form-check-label" >TIDAK</label>
-</div>
-
-<div class="item ">
-<h4>3.Apakah anda mengalami nyeri sendi? </h4>
-
-    <input class="form-check-input" type="radio" name="pert3" value="YA">
-  <label class="form-check-label" >YA</label>
-  <input class="form-check-input" type="radio" name="pert3" value="TIDAK">
-  <label class="form-check-label" >TIDAK</label>
-</div>
-
-<div class="item ">
-<h4>4. Apakah anda mengalami sesak nafas? </h4>
-  <input class="form-check-input" type="radio" name="pert4" value="YA">
-  <label class="form-check-label" >YA</label>
-  <input class="form-check-input" type="radio" name="pert4" value="TIDAK">
-  <label class="form-check-label" >TIDAK</label>
-</div>
-
-<div class="item ">
-<h4>5.Apakah anda pernah melakukan perjalanan ke luar negeri dalam dua bulan terakhir? </h4>
-  <input class="form-check-input" type="radio" name="pert5" value="YA">
-  <label class="form-check-label" >YA</label>
-  <input class="form-check-input" type="radio" name="pert5" value="TIDAK">
-  <label class="form-check-label" >TIDAK</label>
-</div>
 
 
-
-<div class="item ">
-<h4>HASIL?</h4>
-<input class="btn btn-primary" type="submit" name="hasil" value="Hasil">
-</div>
-
-</form>
-
-
-
-
-
-
-
-
-</div>
-
-
-<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-<span class="sr-only">Next</span>
-</a>
-</div>
-</div>
-
-<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-<script>
-  $('.carousel').carousel({
-   interval: 0
-  });
- </script>       
-
-</body>
-</html>

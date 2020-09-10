@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
   <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="vendors/aos/css/aos.css">
 </head>
 <body>
   <!--================Header Menu Area =================-->
@@ -45,16 +46,17 @@
   <section class="hero-banner mb-10px">
       <div class="container">
         <div class="row">
-          <div class="col-lg-7">
+          <div class="col-lg-7" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-duration="20">
             <div class="hero-banner__img">
               <img class="img-fluid" width="500px" src="img/banner/self-checkup.png" alt="">
             </div>
           </div>
-          <div class="col-lg-5 pt-7">
+          <div class="col-lg-5 pt-7" data-aos="fade-right">
             <div class="hero-banner__content">
               <h1>Salam, Indonesia Tangguh Melawan COVID-19</h1>
               <p><font size="3px">Saat ini dengan mulai munculnya ODP, PDP dan kasus Positif COVID-19 di Indonesia, tentunya self-checkup COVID-19 akan dibutuhkan oleh masyarakat.</font></p>
-                <a class="button bg" href="checkup-pertanyaan.php">Cek Diri Anda Sekarang!</a><br>
+                <a class="button bg" href="checkup-pertanyaan.php" >Cek Diri Anda Sekarang!</a><br>
             </div>
           </div>
         </div>
@@ -168,6 +170,10 @@ Alat self assesment diadaptasi dari Self Assesment COVID-19 dari British Columbi
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/mail-script.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
 </body>
 </html>
 

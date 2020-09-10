@@ -85,71 +85,91 @@ if ($pert2 == "1"){
   if ($pert21 == "1"){
  $hasil++;
   }
+  ?>
 
+<style type="text/css">
+  .box{
+    align-items: center;
+    padding: 30px 40px;
+    border-radius: 5px;
+  }
+  h5 {
+    color: white;
+  }
+   h4 {
+    color: white;
+  }
+  h2 {
+    color: white;
+  }
+</style>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 
-
-
-if ($hasil<8) {
-	$status = "	Resiko Rendah";
+<?php
+if ($hasil<8) {?>
+	
+       <center><div class="col-md-4" >
+  <br><img src="img/hsl/rendah.png" width="100%"><br><br>
+        <div class="bg-success box text-white center" align="center">
+       
+            <div class="col-md-9 " align="center">
+              <h5>Anda Resiko Sedang</h5>
+              <h7>Segera Hubungi Rumahsakit Terdekat jaga kesehatan</h7>
+            </div>
+            
+        
+        </div>
+    </div></center>
+  
+    <?php
 }
 
-else if ($hasil<15) {
-	$status = "	Resiko Sedang";
+//Sedang
+else if ($hasil<15) {?>
+
+<center><div class="col-md-4" >
+  <br><img src="img/hsl/sedang.png" width="100%"><br><br>
+        <div class="bg-warning box text-white center" align="center">
+       
+            <div class="col-md-9 " align="center">
+              <h5>Anda Resiko Sedang</h5>
+              <h7>Segera Hubungi Rumahsakit Terdekat jaga kesehatan</h7>
+            </div>
+            
+        
+        </div>
+    </div></center>
+<?php
 }
+
+
+
+
+//Tinggi
 else{
- $status = "Resiko Tinggi";
+  ?>
+<center><div class="col-md-4" >
+  <br><img src="img/hsl/tinggi.png" width="100%"><br><br>
+        <div class="bg-danger box text-white center" align="center">
+       
+            <div class="col-md-9 " align="center">
+              <h5>Anda Resiko Tinggi</h5>
+              <h7>Segera Hubungi Rumahsakit Terdekat</h7>
+            </div>
+            
+        
+        </div>
+    </div></center>
+
+
+
+    <?php
 }
 
-
-
-
- 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Self Risk Assesment Covid-19</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-</head>
-<body>
 
 
-  <div class="container">
-    
-
-    <table class="table table-striped">
-                                    <thead>
-                                    <tr>
-                                      <th>Total Jawaban YA</th>
-                                      <th>Hasil</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                       <tr>
-                                        <td><?php echo $hasil;?></td>
-                                        <td><?php echo $status;?></td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                   
-  </div>  
-
-  <footer class="text-muted">
-      <div class="container">
-        <p class="float-right">
-          <a href="#">Back to top</a>
-        </p>
-        <p>Disclaimer: sumber dari Asosiasi Klinik Indonesia & Group WA</p>
-        
-
-    </footer>
-
-
-
-</html>
 
 
 

@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="vendors/linericon/style.css">
   <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
   <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-  
+  <link rel="stylesheet" href="vendors/aos/css/aos.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
 
@@ -52,7 +52,8 @@
  <section class="hero-banner mb-30px ">
       <div class="container">
         <div class="row">
-          <div class="col-lg-7">
+          <div class="col-lg-7" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-duration="20">
             <div class="hero-banner__img">
               <img class="img-fluid" src="img/banner/curva.png">
             </div>
@@ -62,10 +63,13 @@
               <h1>Kasus COVID-19</h1>
               <p>Di Indonesia, kasus terkonfirmasi positif COVID-19 pertama kali terdektesi pada Senin, 2 Maret 2020. Sejak itu, jumlah yang terkonfirmasi COVID-19 semakin bertambah dari hari ke hari.</p>              
             </div>
+            <center><img width="200px" src="https://media.giphy.com/media/Ws45dwz1GX8fzvHXdC/giphy.gif" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"></center>
           </div>
         </div>
+        
       </div>
-         <center><img width="200px" src="https://media.giphy.com/media/Ws45dwz1GX8fzvHXdC/giphy.gif"></center>
+         
     </section>
 
   <!--================ Hero sm Banner end =================-->
@@ -88,21 +92,21 @@
   }
 </style>
   <section class="section-margin">
-   <div class="container">
+   <div class="container" >
 
-        <h1 style="text-align: center;">Kasus Covid-19 Terkini</h1>
-        <p style="text-align: center;">Berikut adalah jumlah kasus Positif, Meninggal, dan Sembuh seluruh dunia</p>
+        <h1 style="text-align: center;" data-aos="zoom-in">Kasus Covid-19 Terkini</h1>
+        <p style="text-align: center;" data-aos="zoom-in">Berikut adalah jumlah kasus Positif, Meninggal, dan Sembuh seluruh dunia</p>
        
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4" >
         <div class="bg-danger box text-white">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-down">
               <h5>Positif</h5>
               <h4 id="data-kasus"><td><img width="50px" src="img/Preloader.svg"></h4>
               <h5>Orang</h5>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up" >
               <img src="img/sad.svg" style="width: 100px">
             </div>
           </div>
@@ -112,12 +116,12 @@
     <div class="col-md-4">
         <div class="bg-info box text-white">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-up">
               <h5>Meninggal</h5>
               <h4 id="data-mati"><td><img width="50px" src="img/Preloader.svg"></h4>
               <h5>Orang</h5>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 " data-aos="fade-down">
               <img src="img/cry.svg" style="width: 100px">
             </div>
           </div>
@@ -127,12 +131,12 @@
 <div class="col-md-4">
         <div class="bg-success box text-white">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-down">
               <h5>Sembuh</h5>
               <h4 id="data-sembuh"><td><img width="50px" src="img/Preloader.svg"></h4>
               <h5>Orang</h5>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up">
               <img src="img/happy.svg" style="width: 100px">
             </div>
           </div>
@@ -290,6 +294,10 @@
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/mail-script.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

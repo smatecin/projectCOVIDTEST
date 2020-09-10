@@ -51,12 +51,13 @@
     <section class="hero-banner mb-30px">
       <div class="container">
         <div class="row">
-          <div class="col-lg-7">
+          <div class="col-lg-7" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-duration="20">
             <div class="hero-banner__img">
               <img class="img-fluid" src="img/banner/home.png">
             </div>
           </div>
-          <div class="col-lg-5 pt-7">
+          <div class="col-lg-5 pt-7" data-aos="fade-right">
             <div class="hero-banner__content">
               <h1>Apa itu COVID-19?</h1>
               <p>Pneumonia Coronavirus Disease 2019 atau COVID-19 adalah penyakit peradangan paru yang disebabkan oleh Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2). Gejala klinis yang muncul beragam, mulai dari seperti gejala flu biasa (batuk, pilek, nyeri tenggorok, nyeri otot, nyeri kepala) sampai yang berkomplikasi berat (pneumonia atau sepsis).</p>
@@ -80,8 +81,8 @@
           <div class="row">
 
             <div class="col-lg-4">
-              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0">
-                <span class="card-feature__icon">
+              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0" data-aos="fade-up">
+                <span class="card-feature__icon" data-aos="fade-up">
                  <i> <img class="img-fluid" src="img\gejala_img\demam.png" alt=""></i>
                 </span>
                 <h3 class="card-feature__title">Demam</h3>
@@ -91,8 +92,8 @@
 
 
             <div class="col-lg-4">
-              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0">
-                <span class="card-feature__icon">
+              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0" data-aos="fade-up">
+                <span class="card-feature__icon" data-aos="fade-up">
                  <i> <img class="img-fluid" src="img\gejala_img\batuk.png" alt=""></i>
                 </span>
                 <h3 class="card-feature__title">Batuk Kering</h3>
@@ -102,8 +103,8 @@
 
 
             <div class="col-lg-4">
-              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0">
-                <span class="card-feature__icon">
+              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0" data-aos="fade-up">
+                <span class="card-feature__icon" data-aos="fade-up">
                   <i><img class="img-fluid" src="img\gejala_img\sakittenggorokan.png" alt=""></i>
                 </span>
                 <h3 class="card-feature__title">Sakit Tenggorokan</h3>
@@ -114,8 +115,8 @@
 
 
             <div class="col-lg-4">
-              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0">
-                <span class="card-feature__icon">
+              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0" data-aos="fade-up">
+                <span class="card-feature__icon" data-aos="fade-up">
                   <i><img class="img-fluid" src="img\gejala_img\sakitkepala.png" alt=""></i>
                 </span>
                 <h3 class="card-feature__title">Sakit Kepala</h3>
@@ -123,8 +124,8 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0">
-                <span class="card-feature__icon">
+              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0" data-aos="fade-up">
+                <span class="card-feature__icon" data-aos="fade-up">
                   <i><img class="img-fluid" src="img\gejala_img\lemas.png" alt=""></i>
                 </span>
                 <h3 class="card-feature__title">Lemas</h3>
@@ -132,8 +133,8 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0">
-                <span class="card-feature__icon">
+              <div class="card card-feature text-center text-lg-left mb-2 mb-lg-0" data-aos="fade-up">
+                <span class="card-feature__icon" data-aos="fade-up">
                   <i><img class="img-fluid" src="img\gejala_img\sesak.png" alt=""></i>
                 </span>
                 <h3 class="card-feature__title">Sesak Nafas</h3>
@@ -229,8 +230,9 @@
           </div>
 
 
-          <div class="col-lg-6">
-            <div class="offer-single__img">
+          <div class="col-lg-6" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="20" >
+            
+            <div class="offer-single__img" >
               <img class="img-fluid" src="img\pencegahan_img\pencegahan.png" alt="">
             </div>
             </div>
@@ -387,6 +389,11 @@
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/mail-script.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
+
 </body>
 </html>
 

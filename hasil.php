@@ -108,18 +108,24 @@ if ($pert2 == "1"){
 <?php
 if ($hasil<8) {?>
 	
-       <center><div class="col-md-4" >
-  <br><img src="img/hsl/rendah.png" width="100%"><br><br>
-        <div class="bg-success box text-white center" align="center">
-       
-            <div class="col-md-9 " align="center">
-              <h5>Anda Resiko Sedang</h5>
-              <h7>Segera Hubungi Rumahsakit Terdekat jaga kesehatan</h7>
+       <section id="home" class="home"><center><div class="col-md-4" >
+  <br><img src="img/hsl/rendah.png" style="width: 100%" >
+  <br>
+  <br>
+        
+        
+       <h4 class="section-intro__title text-center" style="color: #000000 ">
+        Terimakasih sudah menjadi bagian dari pencegahan COVID-19.
+        Datamu sangat membantu analisa kami untuk mengetahui potensi risiko penyebaran Covid-19 di lingkungan kamu.</h4><br><br>
+        <div class="bg-success box text-white center" align="center" >
+            <div class="col-md-12 " align="center">
+              <h4><u>Anda Resiko Rendah</u></h4><br><br>
+              <h5>Tinggal dirumah aja, cuci tangan dengan sabun, makan-makanan bergizi dan lakukan olahraga secara teratur</h5>
             </div>
             
         
         </div>
-    </div></center>
+    </div></center></section>
   
     <?php
 }
@@ -128,12 +134,16 @@ if ($hasil<8) {?>
 else if ($hasil<15) {?>
 
 <center><div class="col-md-4" >
-  <br><img src="img/hsl/sedang.png" width="100%"><br><br>
+  <br><img src="img/hsl/sedang.png" style="width: 100%">
+  <br>
+  <br>
+  <h4 class="section-intro__title text-center" style="color: #000000 ">
+        Terimakasih sudah menjadi bagian dari pencegahan COVID-19.
+        Datamu sangat membantu analisa kami untuk mengetahui potensi risiko penyebaran Covid-19 di lingkungan kamu.</h4><br><br>
         <div class="bg-warning box text-white center" align="center">
-       
-            <div class="col-md-9 " align="center">
-              <h5>Anda Resiko Sedang</h5>
-              <h7>Segera Hubungi Rumahsakit Terdekat jaga kesehatan</h7>
+            <div class="col-md-12 " align="center">
+              <h4><u>Anda Resiko Sedang</u></h4><br><br>
+              <h5>Sebagai tindakan pencegahan, diminta untuk tinggal di rumah selama 14 hari untuk mencegah penyebaran. Anda disarankan untuk tidak keluar ke tempat publik, tinggal dirumah saja dan tidak boleh ada tamu.</h5>
             </div>
             
         
@@ -150,23 +160,28 @@ else{
   ?>
 <center><div class="col-md-4" >
   <br><img src="img/hsl/tinggi.png" width="100%"><br><br>
+  <h4 class="section-intro__title text-center" style="color: #000000 ">
+        Terimakasih sudah menjadi bagian dari pencegahan COVID-19.
+        Datamu sangat membantu analisa kami untuk mengetahui potensi risiko penyebaran Covid-19 di lingkungan kamu.</h4><br><br>
         <div class="bg-danger box text-white center" align="center">
        
-            <div class="col-md-9 " align="center">
-              <h5>Anda Resiko Tinggi</h5>
-              <h7>Segera Hubungi Rumahsakit Terdekat</h7>
+            <div class="col-md-12 " align="center">
+              <h4><u>Anda Resiko Tinggi</u></h5><br><br>
+              <h5>Gejala-gejala ini membutuhkan perhatian segera. Anda harus segera menelepon Rumah Sakit Terdekat, atau langsung pergi ke instalasi gawat darurat terdekat.</h5>
             </div>
-            
-        
+            <br>
+             
+    <a href="rumahsakit.php" class="btn btn-primary btn-lg">Rumahsakit Rujukan!</a>
         </div>
-    </div></center>
-
-
-
+    </div>
+   
+  </center>
     <?php
 }
 
 ?>
+<br><br><br><br><br><br><br><br><br>
+<center><a href="#">Back to top</a></center>
 
 
 

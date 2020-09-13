@@ -26,7 +26,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container box_1620">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand logo_h" href="index.php"><img src="img/logo.png" alt=""></a>
+          <a class="navbar-brand logo_h" href="index.php" data-aos="fade-down"><img src="img/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -56,10 +56,10 @@
               <img class="img-fluid" src="img/banner/rs.png">
             </div>
           </div>
-          <div class="col-lg-5 pt-7" >
+          <div class="col-lg-5 pt-7" data-aos="fade-right">
             <div class="hero-banner__content">
               <h1>Rumah Sakit Rujukan</h1>
-              <p>Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit atau Puskesmas yang ada di daerah (Yogyakarta) dimana rumah sakit atau puskesmas tersebut sudah mendapatkan verifikasi dari Kementrian Kesehatan dalam menangani kasus COVID-19.</p>              
+              <p>Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit yang telah terverifikasi Kementrian Kesehatan dalam menangani kasus COVID-19</p>              
             </div>
             <center><img width="200px" src="https://media.giphy.com/media/Ws45dwz1GX8fzvHXdC/giphy.gif" data-aos="fade-up"
      data-aos-anchor-placement="top-bottom"></center>
@@ -91,7 +91,7 @@
    <div class="container">
 
         <h1 style="text-align: center;">Rumah Sakit Rujukan</h1>
-        <p style="text-align: center;">Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit atau Puskesmas yang ada di daerah (Yogyakarta) dimana rumah sakit atau puskesmas tersebut sudah mendapatkan verifikasi dari Kementrian Kesehatan dalam menangani kasus COVID-19.</p>
+        <p style="text-align: center;">Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit yang telah terverifikasi Kementrian Kesehatan dalam menangani kasus COVID-19</p>
         
  
 

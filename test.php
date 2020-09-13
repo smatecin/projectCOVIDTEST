@@ -221,23 +221,15 @@
                                     <tfoot>
                                       <tr class="totals-row">
                                         <td colspan="4" class="wide-cell" style="text-align:right;">
-                                          <button type="submit" class="submit btn btn-primary btn-block" name="login" value="Login" >&nbsp;&nbsp;Lihat Hasil&nbsp;&nbsp;</button>
+                                          <button href="#home" type="submit" class="submit btn btn-primary btn-block" name="login" value="Login" >&nbsp;&nbsp;Lihat Hasil&nbsp;&nbsp;</button>
                                         </td>
                                       </tr>
                                     </tfoot>
                                   </table>
                                 </form>
-  </div>  
-    <footer class="text-muted">
-      <div class="container">
-        <p class="float-right">
-          <a href="#">Back to top</a>
-        </p>
-        <p>Disclaimer: sumber dari Asosiasi Klinik Indonesia & Group WA</p>
-        
-
-    </footer>
-
+ 
+          <center><a href="#">Back to top</a></center>
+ 
 
 
 

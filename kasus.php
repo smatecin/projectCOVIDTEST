@@ -28,7 +28,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container box_1620">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand logo_h" href="index.php"><img src="img/logo.png" alt=""></a>
+          <a class="navbar-brand logo_h" href="index.php" data-aos="fade-down"><img src="img/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -58,7 +58,7 @@
               <img class="img-fluid" src="img/banner/curva.png">
             </div>
           </div>
-          <div class="col-lg-5 pt-7">
+          <div class="col-lg-5 pt-7" data-aos="fade-right">
             <div class="hero-banner__content">
               <h1>Kasus COVID-19</h1>
               <p>Di Indonesia, kasus terkonfirmasi positif COVID-19 pertama kali terdektesi pada Senin, 2 Maret 2020. Sejak itu, jumlah yang terkonfirmasi COVID-19 semakin bertambah dari hari ke hari.</p>              
@@ -156,7 +156,7 @@
             <div class="col-md-5">
               <h2>Terkini</h2>
               <h5 id="data-terkini"><td><img width="50px" src="img/Preloader.svg"></h5>
-                 <h6 style="color: white">Update Realtime tiap Pukul 16.00 WIB</h6>
+                 <h6 style="color: white">Update <?php echo date(DATE_RFC1123)?> </h6>
 
             </div>
           </div>
@@ -323,14 +323,15 @@
           url : 'https://coronavirus-19-api.herokuapp.com/all',
           success : function(data){
               try{
+                var nf = Intl.NumberFormat();
                 var json = data;
                 var kasus = data.cases;
                 var meninggal = data.deaths;
                 var sembuh = data.recovered;
 
-              $('#data-kasus').html(kasus);
-              $('#data-mati').html(meninggal);
-              $('#data-sembuh').html(sembuh);
+              $('#data-kasus').html(nf.format(kasus));
+              $('#data-mati').html(nf.format(meninggal));
+              $('#data-sembuh').html(nf.format(sembuh));
 
               }catch{
                 alert('error');
@@ -352,15 +353,16 @@
                     var namaNegara = dataNegara.country;
 
                     if(namaNegara == 'Indonesia'){
+                      var nf = Intl.NumberFormat();
                       var kasus = dataNegara.cases;
                       var kasushariini = dataNegara.todayCases;
                       var mati = dataNegara.deaths;
                       var matihariini = dataNegara.todayDeaths;
                       var sembuh = dataNegara.recovered;
                       $('#data-id').html(
-                        'Positif : ' +kasus+ ' Orang <br> Meninggal : '+mati+' Orang <br> Sembuh : '+sembuh+' Orang');
+                        'Positif : ' +nf.format(kasus)+ ' Orang <br> Meninggal : '+nf.format(mati)+' Orang <br> Sembuh : '+nf.format(sembuh)+' Orang');
                       $('#data-terkini').html(
-                        'Positif : ' +kasushariini+ ' Orang <br> Meninggal : '+matihariini+' Orang');
+                        'Positif : ' +nf.format(kasushariini)+ ' Orang <br> Meninggal : '+nf.format(matihariini)+' Orang');
 
                     }
                   

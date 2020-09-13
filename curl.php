@@ -1,6 +1,8 @@
 <?php
+
 //Buat fungsi http_request
 function http_request($url){
+	
 	//persiapkan CURL
 	$ch = curl_init();
 

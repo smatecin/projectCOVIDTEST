@@ -22,7 +22,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container box_1620">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand logo_h" href="index.php" data-aos="fade-down"><img src="img/logo.png" alt=""></a>
+          <a class="navbar-brand logo_h" href="index.php"><img src="img/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -56,9 +56,8 @@
             <div class="hero-banner__content">
               <h1>Salam, Indonesia Tangguh Melawan COVID-19</h1>
               <p><font size="3px">Saat ini dengan mulai munculnya ODP, PDP dan kasus Positif COVID-19 di Indonesia, tentunya self-checkup COVID-19 akan dibutuhkan oleh masyarakat.</font></p>
+                <a class="button bg" href="checkup-pertanyaan.php" >Cek Diri Anda Sekarang!</a><br>
             </div>
-            <center><img width="200px" src="https://media.giphy.com/media/Ws45dwz1GX8fzvHXdC/giphy.gif" data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom"></center>
           </div>
         </div>
       </div>
@@ -68,34 +67,11 @@
   <!--================ Pricing section start =================-->      
    <section class="section-margin">
     <div class="container">
-      
-        <h2 class="section-intro__title text-center">Self Check Up COVID-19</h2>
-        
-      <div>
-        <div class="p3 mx-3">
-          <div class="card shadow p-5">
-            <div class="text-center">
-              <img src="img/guard.jpg" style="height: 150px" data-aos="zoom-in"></img>
-            </div>
-            <section>
-              <h2 class="section-intro__title text-center">
-                Aplikasi ini berisikan beberapa daftar pertanyaan
-                <br>
-                Untuk mengecek kondisi fisik anda
-              </h2>
-              <div class="large text-center">
-                <a href="checkup-pertanyaan.php" class="btn btn-primary btn-lg">Cek Kondisi Anda Sekarang!</a>
-                <br>
-                <br>
-                <h3>atau</h3>
-                
-                <br>
-                <a href="index.php" type="button" class="btn btn-success btn-lg"> Kembali ke Beranda</a>
-              </div>
-            </section>
-          </div>
-        </div>
-      </div>
+      <div class="section-intro pb-100px ">
+        <h2 class="section-intro__title text-center">Self Check up Covid-19</h2>
+        <p class="section-intro__subtitle text-left" ><font size="5"><p>Self assesment ini adalah alat sederhana yang bisa membantu menentukan apakah Anda sehat-sehat saja atau ada gejala yang memerlukan penilaian, pemeriksaan dan pengujian lebih lanjut untuk COVID-19.<br>
+
+Alat self assesment diadaptasi dari Self Assesment COVID-19 dari British Columbia, Kanada. Anda dapat menyelesaikan penilaian ini untuk diri sendiri maupun orang lain..</font></p>
       </div>
     </div>
   </section>

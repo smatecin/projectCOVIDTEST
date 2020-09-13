@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
   <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="vendors/aos/css/aos.css">
 </head>
 <body>
   <!--================Header Menu Area =================-->
@@ -21,7 +22,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container box_1620">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand logo_h" href="index.php"><img src="img/logo.png" alt=""></a>
+          <a class="navbar-brand logo_h" href="index.php" data-aos="fade-down"><img src="img/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -45,20 +46,22 @@
   <section class="hero-banner mb-10px">
       <div class="container">
         <div class="row">
-          <div class="col-lg-7">
+          <div class="col-lg-7" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-duration="20">>
             <div class="hero-banner__img">
               <img class="img-fluid" width="500px" src="img/banner/self-checkup.png" alt="">
             </div>
           </div>
-          <div class="col-lg-5 pt-7">
+          <div class="col-lg-5 pt-7" data-aos="fade-right">
             <div class="hero-banner__content">
               <h1>Yuk Self-Assesment sekarang juga</h1>
               <p><font size="3px">Saat ini dengan mulai munculnya ODP, PDP dan kasus Positif COVID-19 di Indonesia, tentunya self-checkup COVID-19 akan dibutuhkan oleh masyarakat.</font></p>
                 
             </div>
+             <center><img width="200px" src="https://media.giphy.com/media/Ws45dwz1GX8fzvHXdC/giphy.gif"></center>
           </div>
         </div>
-         <center><img width="200px" src="https://media.giphy.com/media/Ws45dwz1GX8fzvHXdC/giphy.gif"></center>
+        
       </div>
 
      
@@ -70,7 +73,7 @@
   <section class="section-margin">
   
          <h1 style="text-align: center;">Self Checkup COVID-19</h1>   
-       <iframe src="test.php" width="100%" height="1300" style="border:none;" scrolling="yes"  ></iframe>
+       <iframe src="test.php" width="100%" height="1350" style="border:none;" scrolling="no"  ></iframe>
     
     
   </section>
@@ -173,6 +176,10 @@
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/mail-script.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
 </body>
 </html>
 

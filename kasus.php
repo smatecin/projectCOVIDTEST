@@ -148,15 +148,21 @@
           <div class="row">
             <div class="col-md-3">
               <h2>INDONESIA</h2>
-              <h5 id="data-id" ><td><img width="50px" src="img/Preloader.svg"></h5>
+              
+              <h5>Positif : <span class="pos-id">0</span></h5>
+              <h5>Meninggal : <span class="meninggal-id">0</span></h5>
+              <h5>Sembuh : <span class="sembuh-id"></h5>
+            
             </div>
             <div class="col-md-4">
               <img src="img/indonesia.svg" style="width: 150px">
             </div>
             <div class="col-md-5">
               <h2>Terkini</h2>
-              <h5 id="data-terkini"><td><img width="50px" src="img/Preloader.svg"></h5>
-                 <h6 style="color: white">Update <?php echo date(DATE_RFC1123)?> </h6>
+              <h5>Positif : <span class="pos-idtoday">0</span></h5>
+              <h5>Meninggal : <span class="meninggal-idtoday">0</span></h5>
+              <h5>Sembuh : <span class="sembuh-idtoday"></h5>
+                 <h6 style="color: white">Update <span class="timeindo"> </h6>
 
             </div>
           </div>
@@ -293,6 +299,7 @@
   <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/mail-script.js"></script>
+  <script src="js/moment.js"></script>
   <script src="js/main.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
@@ -310,11 +317,13 @@
 <script>
   $(document).ready(function(){
       semuaData();
-      dataNegara();
+ upd();
       dataProvinsi();
+
       setInterval(function(){
         semuaData();
-        dataNegara();
+        upd();
+     
 
       },3000);
    
@@ -339,43 +348,52 @@
           }
         });
       }
-      function dataNegara(){
-         $.ajax({
-          url : 'https://coronavirus-19-api.herokuapp.com/countries',
-          success : function(data){
-              try{
-                var json = data;
-                var html = [];
-                if (json.length > 0) {
-                  var i;
-                  for (i = 0; i < json.length; i++) {
-                    var dataNegara = json[i];
-                    var namaNegara = dataNegara.country;
 
-                    if(namaNegara == 'Indonesia'){
-                      var nf = Intl.NumberFormat();
-                      var kasus = dataNegara.cases;
-                      var kasushariini = dataNegara.todayCases;
-                      var mati = dataNegara.deaths;
-                      var matihariini = dataNegara.todayDeaths;
-                      var sembuh = dataNegara.recovered;
-                      $('#data-id').html(
-                        'Positif : ' +nf.format(kasus)+ ' Orang <br> Meninggal : '+nf.format(mati)+' Orang <br> Sembuh : '+nf.format(sembuh)+' Orang');
-                      $('#data-terkini').html(
-                        'Positif : ' +nf.format(kasushariini)+ ' Orang <br> Meninggal : '+nf.format(matihariini)+' Orang');
+      function upd(){
+  $.getJSON('https://services5.arcgis.com/VS6HdKS0VfIhv8Ct/ArcGIS/rest/services/Statistik_Perkembangan_COVID19_Indonesia/FeatureServer/0/query?where=Jumlah_Kasus_Kumulatif%20IS%20NOT%20NULL%20AND%20Jumlah_Pasien_Sembuh%20IS%20NOT%20NULL%20AND%20Jumlah_Pasien_Meninggal%20IS%20NOT%20NULL&outFields=*&orderByFields=Tanggal%20desc&resultRecordCount=2&f=json&fbclid=IwAR0WtY3HaDB_Hx6qjcY8Q2_zj_CTii-x43W3_yleVGpBz6DCrKx8hY5yRuM',
+    function(covid){
+      var nf = Intl.NumberFormat();
+      var indopositif =covid.features[0].attributes.Jumlah_Kasus_Kumulatif;
+      var indomeninggal =covid.features[0].attributes.Jumlah_Pasien_Meninggal;
+      var indosembuh =covid.features[0].attributes.Jumlah_Pasien_Sembuh;
+      var indopositiftoday =covid.features[0].attributes.Jumlah_Kasus_Baru_per_Hari;
+      var indomeninggaltoday =covid.features[0].attributes.Jumlah_Kasus_Meninggal_per_Hari;
+       var indosembuhtoday =covid.features[0].attributes.Jumlah_Kasus_Sembuh_per_Hari;
+       var indotime = moment(covid.features[0].attributes.Tanggal).format("DD-MM-YYYY HH:mm:ss");
 
-                    }
-                  
-                  }
-                }
+    
+      function positif(){
+        $('.pos-id').text(nf.format(indopositif))}
+        positif();
+         function positiftoday(){
+        $('.pos-idtoday').text(nf.format(indopositiftoday))}
+        positiftoday();
+     
 
-              }catch{
-                alert('error');
-              }
-          }
-        });
-        }
+      function meninggal(){
+        $('.meninggal-id').text(nf.format(indomeninggal))}
+        meninggal();
+        function meninggaltoday(){
+        $('.meninggal-id').text(nf.format(indomeninggal))}
+        meninggal();
+  
+      function sembuh(){
+        $('.sembuh-id').text(nf.format(indosembuh))}
+        sembuh();
+        function sembuhterkini(){
+        $('.sembuh-idtoday').text(nf.format(indosembuhtoday))}
+        sembuhterkini();
 
+  function timeupdate(){
+        $('.timeindo').text(indotime)}
+        timeupdate();
+
+      }
+        )
+
+
+}
+      
         function dataProvinsi(){
 
            $.ajax({
@@ -396,6 +414,8 @@
           }
         });
       }
+
+
   });
 </script>
 

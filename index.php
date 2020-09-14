@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>HOME - Checkup Covid-19</title>
 	 <link rel="icon" href="img/icon.png">
-
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
@@ -278,7 +277,7 @@
           <div class="col-lg-6">
             <div class="solution__content">
               <h2>Rumah Sakit Rujukan</h2>
-              <p>Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit atau Puskesmas yang ada di daerah (Yogyakarta) dimana rumah sakit atau puskesmas tersebut sudah mendapatkan verifikasi dari Kementrian Kesehatan dalam menangani kasus COVID-19</p>
+              <p>Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit yang telah terverifikasi Kementrian Kesehatan dalam menangani kasus COVID-19</p>
               <p> Cek Rumah Sakit Rujukan terdekat anda! </p>
               <a class="button button-light" href="rumahsakit.php">Cek Rumahsakit!</a>
             </div>

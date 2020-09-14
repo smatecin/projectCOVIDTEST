@@ -171,6 +171,7 @@ else{
             </div>
             <br>
              
+    <a href="checkup.php" class="btn btn-success btn-lg">Ulangi Test</a><br><br>
     <a href="rumahsakit.php" class="btn btn-primary btn-lg">Rumahsakit Rujukan!</a>
         </div>
     </div>

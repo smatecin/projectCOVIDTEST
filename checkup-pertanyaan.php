@@ -73,7 +73,7 @@
   <section class="section-margin">
   
          <h1 style="text-align: center;">Self Checkup COVID-19</h1>   
-       <iframe src="test.php" width="100%" height="1350" style="border:none;" scrolling="no"  ></iframe>
+       <iframe src="test.php" width="100%" height="1350" style="border:none;" scrolling="yes"  ></iframe>
     
     
   </section>

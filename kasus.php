@@ -149,8 +149,8 @@
             <div class="col-md-3">
               <h2>INDONESIA</h2>
               
-              <h5>Positif : <span class="pos-id">0</span></h5>
-              <h5>Meninggal : <span class="meninggal-id">0</span></h5>
+              <h5>Positif : <span class="pos-id"></span></h5>
+              <h5>Meninggal : <span class="meninggal-id"></span></h5>
               <h5>Sembuh : <span class="sembuh-id"></h5>
             
             </div>
@@ -159,8 +159,8 @@
             </div>
             <div class="col-md-5">
               <h2>Terkini</h2>
-              <h5>Positif : <span class="pos-idtoday">0</span></h5>
-              <h5>Meninggal : <span class="meninggal-idtoday">0</span></h5>
+              <h5>Positif : <span class="pos-idtoday"></span></h5>
+              <h5>Meninggal : <span class="meninggal-idtoday"></span></h5>
               <h5>Sembuh : <span class="sembuh-idtoday"></h5>
                  <h6 style="color: white">Update <span class="timeindo"> </h6>
 
@@ -374,8 +374,8 @@
         $('.meninggal-id').text(nf.format(indomeninggal))}
         meninggal();
         function meninggaltoday(){
-        $('.meninggal-id').text(nf.format(indomeninggal))}
-        meninggal();
+        $('.meninggal-idtoday').text(nf.format(indomeninggaltoday))}
+        meninggaltoday();
   
       function sembuh(){
         $('.sembuh-id').text(nf.format(indosembuh))}

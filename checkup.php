@@ -69,7 +69,7 @@
    <section class="section-margin">
     <div class="container">
       
-        <h2 class="section-intro__title text-center">Self Check Up COVID-19</h2>
+        <h2 data-aos="zoom-in" class="section-intro__title text-center">Self Check Up COVID-19</h2>
         
       <div>
         <div class="p3 mx-3">
@@ -77,7 +77,7 @@
             <div class="text-center">
               <img src="img/guard.jpg" style="height: 150px" data-aos="zoom-in"></img>
             </div>
-            <section>
+            <section data-aos="zoom-in">
               <h2 class="section-intro__title text-center">
                 Aplikasi ini berisikan beberapa daftar pertanyaan
                 <br>

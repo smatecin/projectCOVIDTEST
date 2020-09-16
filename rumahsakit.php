@@ -90,19 +90,19 @@
   <section class="section-margin">
    <div class="container">
 
-        <h1 style="text-align: center;">Rumah Sakit Rujukan</h1>
-        <p style="text-align: center;">Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit yang telah terverifikasi Kementrian Kesehatan dalam menangani kasus COVID-19</p>
+        <h1 data-aos="zoom-in" style="text-align: center;">Rumah Sakit Rujukan</h1>
+        <p data-aos="zoom-in" style="text-align: center;">Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit yang telah terverifikasi Kementrian Kesehatan dalam menangani kasus COVID-19</p>
         
  
 
-     <div class="container">
+     <div class="container" data-aos="zoom-in">
       <div class="card col-md-15 mb-7">
-            <div class="card-header  text-white" style="background-color: rgb(65 ,47 ,179);">
+            <div class="card-header  text-white" data-aos="zoom-in" style="background-color: rgb(65 ,47 ,179);">
               <b>Data Rumah Sakit Rujukan COVID-19 diIndonesia</b>
             </div>
       <div class="card-body">
     <!-- table -->
-        <table id="example"  class="table table-striped table-bordered" style="width:100%">
+        <table id="example"  class="table table-striped table-bordered" style="width:100%" data-aos="zoom-in">
         <thead>
             <tr>
                 <th>Name</th>

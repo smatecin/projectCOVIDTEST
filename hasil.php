@@ -107,7 +107,7 @@ if ($pert2 == "1"){
 
 <?php
 if ($hasil<8) {?>
-	
+  
        <section id="home" class="home"><center><div class="col-md-4" >
   <br><img src="img/hsl/rendah.png" style="width: 100%" >
   <br>
@@ -170,8 +170,14 @@ else{
               <h5>Gejala-gejala ini membutuhkan perhatian segera. Anda harus segera menelepon Rumah Sakit Terdekat, atau langsung pergi ke instalasi gawat darurat terdekat.</h5>
             </div>
             <br>
-             
-    <a href="checkup.php" class="btn btn-success btn-lg">Ulangi Test</a><br><br>
+       <script>
+function goBack() {
+  window.history.back();
+window.history.back();
+    
+}
+</script>      
+    <a onclick="goBack()" class="btn btn-success btn-lg">Self Checkup Lagi</a><br><br>
     <a href="rumahsakit.php" class="btn btn-primary btn-lg">Rumahsakit Rujukan!</a>
         </div>
     </div>
@@ -181,8 +187,9 @@ else{
 }
 
 ?>
-<br><br><br><br><br><br><br><br><br>
-<center><a href="#">Back to top</a></center>
+<br><br><br><br><br>
+<br><br> <center>
+<a href="#">Back to top</a></center>
 
 
 

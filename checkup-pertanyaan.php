@@ -72,8 +72,9 @@
 
   <section class="section-margin">
   
-         <h1 style="text-align: center;">Self Checkup COVID-19</h1>   
-       <iframe src="test.php" width="100%" height="1350" style="border:none;" scrolling="yes"  ></iframe>
+         <h1 style="text-align: center;" data-aos="fade-down">Self Checkup COVID-19</h1>   
+       <iframe src="test.php" width="100%" height="1350" style="border:none;" scrolling="yes" data-aos="zoom-in"  ></iframe>
+       <center><a href="index.php" class="btn btn-success btn-lg">Kembali ke Beranda</a></center>
     
     
   </section>

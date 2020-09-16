@@ -97,8 +97,8 @@
         <h1 style="text-align: center;" data-aos="zoom-in">Kasus Covid-19 Terkini</h1>
         <p style="text-align: center;" data-aos="zoom-in">Berikut adalah jumlah kasus Positif, Meninggal, dan Sembuh seluruh dunia</p>
        
-  <div class="row">
-    <div class="col-md-4" >
+  <div class="row" >
+    <div class="col-md-4" data-aos="zoom-in" >
         <div class="bg-danger box text-white">
           <div class="row">
             <div class="col-md-6" data-aos="fade-down">
@@ -113,22 +113,22 @@
         </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4" data-aos="zoom-in">
         <div class="bg-info box text-white">
           <div class="row">
-            <div class="col-md-6" data-aos="fade-up">
+            <div class="col-md-6" data-aos="fade-down">
               <h5>Meninggal</h5>
               <h4 id="data-mati"><td><img width="50px" src="img/Preloader.svg"></h4>
               <h5>Orang</h5>
             </div>
-            <div class="col-md-4 " data-aos="fade-down">
+            <div class="col-md-4 " data-aos="fade-up">
               <img src="img/cry.svg" style="width: 100px">
             </div>
           </div>
         </div>
     </div>
 
-<div class="col-md-4">
+<div class="col-md-4" data-aos="zoom-in">
         <div class="bg-success box text-white">
           <div class="row">
             <div class="col-md-6" data-aos="fade-down">
@@ -143,10 +143,10 @@
         </div>
     </div>
 
-    <div class="col-md-12 mt-3">
+    <div class="col-md-12 mt-3" data-aos="zoom-in">
         <div class="bg box text-black" style="background-color: rgb(65 ,47 ,179);">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3" data-aos="fade-down">
               <h2>INDONESIA</h2>
               
               <h5>Positif : <span class="pos-id"></span></h5>
@@ -154,10 +154,10 @@
               <h5>Sembuh : <span class="sembuh-id"></h5>
             
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="zoom-in">
               <img src="img/indonesia.svg" style="width: 150px">
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5" data-aos="fade-down">
               <h2>Terkini</h2>
               <h5>Positif : <span class="pos-idtoday"></span></h5>
               <h5>Meninggal : <span class="meninggal-idtoday"></span></h5>
@@ -169,13 +169,13 @@
         </div>
     </div>
         </div>
-        <div class="table-wrapper-scroll-y my-custom-scrollbar">
+        <div class="table-wrapper-scroll-y my-custom-scrollbar" data-aos="zoom-in">
             <div class="card mt-3">
-            <div class="card-header  text-white" style="background-color: rgb(65 ,47 ,179);">
+            <div class="card-header  text-white" data-aos="zoom-in" style="background-color: rgb(65 ,47 ,179);">
               <b>Data Kasus Corona Virus diIndonesia Bedasarkan Provinsi</b>
             </div>
             <div class="card-body">
-                <table id="example" class="table table-striped table-bordered" cellspacing="0" style="width:100%">
+                <table id="example" class="table table-striped table-bordered" cellspacing="0" style="width:100%" data-aos="zoom-in">
                 
                     <thead>
                       <th>No.</th>

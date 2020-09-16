@@ -70,7 +70,7 @@
 
     <!--================ Feature section start =================-->      
     <section class="section-margin">
-      <div class="container">
+      <div class="container" data-aos="zoom-in">
         <div class="section-intro pb-78px text-center">
           <h1 class="section-intro__title">KENALI GEJALANYA</h1>
           <p class="section-intro__subtitle"><h3>Jangan Panik, Kenali gejalanya dan deteksi COVID-19 sejak dini. Hanya perlu jaga jarak, hindari jabat tangan dan bila sakit memakai masker, dan jaga kebersihan</h3></p>
@@ -148,8 +148,8 @@
     
     <!--================ Offer section start =================-->      
     <section class="section-margin">
-      <div class="container">
-        <div class="section-intro pb-60px text-center">
+      <div class="container" >
+        <div class="section-intro pb-60px text-center" data-aos="zoom-in">
           <h1 class="section-intro__title">PENCEGAHAN COVID-19</h1>
           <p class="section-intro__subtitle"><h3>Lindungi diri dan orang lain di sekitar Anda dengan mengetahui fakta-fakta terkait virus ini dan mengambil langkah pencegahan yang sesuai. Ikuti saran yang diberikan oleh badan kesehatan publik lokal Anda.</h3></p>
         </div>
@@ -162,7 +162,7 @@
 
 
               <div class="col-lg-6 offer-single">
-                <div class="card offer-single__content text-center">
+                <div class="card offer-single__content text-center"data-aos="fade-up">
                   <span class="offer-single__icon">
                      <i><img class="img-fluid" src="img\pencegahan_img\cuci_tangan.png" alt=""></i>
                   </span>
@@ -172,7 +172,7 @@
               </div>
               
               <div class="col-lg-6 offer-single">
-                <div class="card offer-single__content text-center">
+                <div class="card offer-single__content text-center" data-aos="fade-up">
                   <span class="offer-single__icon">
                     <i><img class="img-fluid" src="img\pencegahan_img\sabun.png" alt=""></i>
                   </span>
@@ -183,7 +183,7 @@
             </div>
 
             <div class="row offer-single-wrapper">
-              <div class="col-lg-6 offer-single">
+              <div class="col-lg-6 offer-single" data-aos="fade-up">
                 <div class="card offer-single__content text-center">
                   <span class="offer-single__icon">
                     <i><img class="img-fluid" src="img\pencegahan_img\masker.png" alt=""></i>
@@ -195,7 +195,7 @@
 
               
               <div class="col-lg-6 offer-single">
-                <div class="card offer-single__content text-center">
+                <div class="card offer-single__content text-center" data-aos="fade-up">
                   <span class="offer-single__icon">
                     <i><img class="img-fluid" src="img\pencegahan_img\kerumunan.png" alt=""></i>
                   </span>
@@ -206,7 +206,7 @@
               </div>
 
               <div class="col-lg-6 offer-single">
-                <div class="card offer-single__content text-center">
+                <div class="card offer-single__content text-center" data-aos="fade-up">
                   <span class="offer-single__icon">
                     <i><img class="img-fluid" src="img\pencegahan_img\jabattangan.png" alt=""></i>
                   </span>
@@ -216,7 +216,7 @@
               </div>
 
               <div class="col-lg-6 offer-single">
-                <div class="card offer-single__content text-center">
+                <div class="card offer-single__content text-center" data-aos="fade-up">
                   <span class="offer-single__icon">
                     <i><img class="img-fluid" src="img\pencegahan_img\desin.png" alt=""></i>
                   </span>
@@ -229,7 +229,7 @@
           </div>
 
 
-          <div class="col-lg-6" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="20" >
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="20" >
             
             <div class="offer-single__img" >
               <img class="img-fluid" src="img\pencegahan_img\pencegahan.png" alt="">
@@ -245,9 +245,9 @@
 
 <!--================ about section start =================-->      
     <section class="section-margin">
-      <div class="container">
+      <div class="container" >
         <div class="row no-gutters align-items-center">
-          <div class="col-md-5 mb-5 mb-md-0">
+          <div class="col-md-5 mb-5 mb-md-0" data-aos="zoom-in">
             <div class="about__content">
               <h2>Jumlah Kasus Covid-19 di Indonesia</h2>
               <p>Di Indonesia, kasus terkonfirmasi positif COVID-19 pertama kali terdektesi pada
@@ -257,7 +257,7 @@
             </div>
           </div>
           <div class="col-md-7">
-            <div class="about__img">
+            <div class="about__img" data-aos="zoom-in">
               <img class="img-fluid" src="img/banner/curva.png" alt="">
             </div>
           </div>
@@ -267,7 +267,7 @@
     <!--================ about section end =================-->      
     <!--================ Solution section start =================-->      
     <section class="">
-      <div class="container">
+      <div class="container" data-aos="zoom-in">
         <div class="row align-items-center pt-xl-3 pb-xl-5">
           <div class="col-lg-6">
             <div class="solution__img text-center text-lg-left mb-4 mb-lg-0">
@@ -275,11 +275,11 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="solution__content">
+            <div class="solution__content" data-aos="zoom-in">
               <h2>Rumah Sakit Rujukan</h2>
               <p>Rumah sakit rujukan ini dapat membantu masyarakat dalam menemukan rumah sakit yang telah terverifikasi Kementrian Kesehatan dalam menangani kasus COVID-19</p>
               <p> Cek Rumah Sakit Rujukan terdekat anda! </p>
-              <a class="button button-light" href="rumahsakit.php">Cek Rumahsakit!</a>
+              <a class="button button-light" href="rumahsakit.php">Cek Rumahsakit!</a><br><br>
             </div>
           </div>
         </div>
